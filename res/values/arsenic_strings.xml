@@ -163,4 +163,9 @@
     <string name="su_indicator_summary_on">Superuser indicator is visible when a session is active</string>
     <string name="su_indicator_summary_off">Toggle to show superuser indicator when a session is active</string>
 
+    <!-- Dashboard suggestions -->
+    <string name="dashboard_category">Dashboard options</string>
+    <string name="disable_suggestions_title">Disable suggestions</string>
+    <string name="disable_suggestions_summary">Disable the suggestions that appear on top of the dashboard</string>
+
 </resources>
