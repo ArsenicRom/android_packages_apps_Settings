@@ -53,6 +53,8 @@
     <!-- Settings main menu category heading. Personal (Accounts, security, language, backup...). [CHAR LIMIT=40] -->
     <string name="header_category_personal">Personal</string>
     <!-- Settings main menu category heading. Personal (Accounts, security, language, backup...). [CHAR LIMIT=40] -->
+    <string name="header_category_arsenic_extras">Arsenic Extras</string>
+    <!-- Settings main menu category heading. Personal (Accounts, security, language, backup...). [CHAR LIMIT=40] -->
     <string name="header_category_access">Access</string>
     <!-- Settings main menu category heading. System (Updates, data, accessibility, about phone). [CHAR LIMIT=40] -->
     <string name="header_category_system">System</string>
@@ -7382,6 +7384,26 @@
 
     <!-- Toast message letting the user know the color temperature setting is not immediate -->
     <string name="color_temperature_toast">To apply color change, turn off screen</string>
+
+    <!-- Protected Apps -->
+    <string name="menu_hidden_apps_delete">Reset</string>
+    <string name="menu_hidden_apps_reset_lock">Reset pattern lock</string>
+    <string name="protected_apps">Protected apps</string>
+    <string name="saving_protected_components">Saving component state</string>
+    
+    <!-- Arsenic Addons -->
+
+    <!-- Arsenic Version  [CHAR LIMIT=60] -->
+    <string name="Arsenic_os">Arsenic Version</string>
+    <string name="Arsenic_os_version">Beta</string>
+
+    <!-- Settings main menu category heading. System (Arsenic Addons). [CHAR LIMIT=40] -->
+    <string name="header_category_arsenicos">Arsenic Addons</string>
+
+    <!-- SuperSU -->
+    <string name="supersu_title">SuperSU</string>
+    <string name="supersu_summary">Root access management tool</string>
+
 
     <!-- Name of the setting to disable the automatic update -->
     <string name="ota_disable_automatic_update">Automatic system updates</string>

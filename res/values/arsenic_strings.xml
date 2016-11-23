@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Arsenic Rom-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- About Arsenic -->
+    <string name="about_arsenic_settings_title">About Arsenic</string>
+    <string name="share_arsenic">All about Arsenic</string>
+    <string name="arsenic_donate">Do you like my work?</string>
+    <string name="arsenic_donate_summary">Make a donation</string>
+    <string name="github_arsenic">https://github.com/Juancarlospr5</string>
+    <string name="arsenic_links">Links</string>
+    <string name="htcm_forum_title">HTC Mania Thread</string>
+    <string name="htcm_forum_summary">View HTC Mania Thread </string>
+    <string name="dst_forum_title">DarkSideTeam Thread</string>
+    <string name="dst_forum_summary">View DarkSideTeam Thread </string>
+    <string name="arsenic_source_title">GitHub</string>
+    <string name="arsenic_source_summary">Arsenic Sources</string>
+    <string name="sourcebase_title">Source Base</string>
+    <string name="thanks">Thanks</string>
+    <string name="forums">Thanks to HTC Mania and DarkSideTeam</string>
+    <string name="thanks_all">Thanks all for the help</string>
+    <string name="cm_sourcebase">CyanogenMod</string>
+    <string name="cm_sourcebase_sumary">https://github.com/CyanogenMod</string>
+
+    <!-- Network traffic -->
+    <string name="network_traffic_title">Network traffic</string>
+    <string name="show_network_traffic_state">Status bar traffic monitor</string>
+    <string name="network_traffic_summary">Enable various network traffic options in statusbar</string>
+    <string name="show_network_traffic_unit">Display unit</string>
+    <string name="show_network_traffic_frequency">Update interval</string>
+    <string name="show_network_traffic_disable">Disabled</string>
+    <string name="show_network_traffic_up">Outgoing</string>
+    <string name="show_network_traffic_down">Incoming</string>
+    <string name="show_network_traffic_all">Outgoing and incoming</string>
+    <string name="show_network_traffic_bit">Bits per second</string>
+    <string name="show_network_traffic_byte">Bytes per second</string>
+    <string name="show_network_traffic_500">500 ms</string>
+    <string name="show_network_traffic_1000">1000 ms</string>
+    <string name="show_network_traffic_1500">1500 ms</string>
+    <string name="show_network_traffic_2000">2000 ms</string>
+    <string name="network_traffic_autohide">Auto hide</string>
+    <string name="network_traffic_autohide_summary">Hide the traffic monitor when there is no activity</string>
+    <string name="network_traffic_autohide_threshold">Inactivity threshold</string>
+
+    <!-- QS Tiles Columns -->
+    <string name="qs_num_columns_title">Number of QS tiles per row</string>
+    <string name="qs_num_columns_showing">%1$s tiles per row showing</string>
+    <string name="systemui_tuner_qs_title">Quick Settings Tiles</string>
+    <string name="arsenic_tuner_summary">test</string>
+
+    <!-- Notification Drawer -->
+    <string name="notification_drawer_title">Notification Drawer</string>
+    <string name="arsenic_qs_cat">Quick Settings PullDown</string>
+    <string name="rr_qs">Quick Settings</string>
+    <string name="arsenic_brightness_cat">Brightness Slider</string>
+    <string name="arsenic_qs_title">QuickSettings Panel </string>
+
+    <string name="arsenic_title">Arsenic Extras</string>
+    <string name="arsenic_cat_title">Categories</string>
+    <string name="arsenic_settings_title">Configurations</string>
+    <string name="arsenic_activity_title">Arsenic Settings</string>
+    <string name="status_bar_title">Status bar</string>
+
+    <!-- QuickSettings main tiles -->
+    <string name="qs_main_tiles_summary_on">Two main tiles on the first row</string>
+    <string name="qs_main_tiles_summary_off">3, 4 or 5 tiles on each row</string>
+    <string name="quick_settings_title_enlarge_first_row">Enlarge first row</string>
+    
+    <!-- QuickSettings main tiles -->
+    <string name="quick_settings_title_advanced_location">Enable Three Location States In Qs</string>
+
+    <!-- Quick settings brightness slider -->
+    <string name="qs_brightness_slider_title">Brightness Slider</string>
+    <string name="qs_brightness_slider_summary">Enable/Disable the brightness slider in Quick Settings</string>
+
+    <!-- Brightness Icon  -->
+    <string name="brightness_icon_title">Brightness Icon </string>
+    <string name="brightness_icon_summary">Enable Disable The Brightness Icon Existing Next To Brightness Slider</string>
+
+    <!-- Lockscreen Settings -->
+    <string name="arsenic_lockscreen_title">Lock Screen</string>
+    <string name="arsenic_ls_ui">LockScreen UI</string>
+    <string name="arsenic_lockscreen_date">Date and Time</string>
+    <string name="arsenic_ls_settings">Customizations</string>
+
+    <!-- Hide Lockscreen clock & date -->
+    <string name="hide_lockscreen_clock_title">Clock</string>
+    <string name="hide_lockscreen_clock_summary">Show lockscreen clock</string>
+    <string name="hide_lockscreen_date_title">Date</string>
+    <string name="hide_lockscreen_date_summary">Show lockscreen date</string>
+    <string name="hide_lockscreen_alarm_title">Alarm</string>
+    <string name="hide_lockscreen_alarm_summary">Show lockscreen alarm</string>
+
+    <!-- Charging lockscreen  -->
+    <string name="lock_screen_show_current">Charging Current</string>
+    <string name="lock_screen_show_current_summary">Show Charging Current rate on lock screen</string>
+
+    <!-- Lockscreen wallpaper -->
+    <string name="lockscreen_wallpaper_title">Wallpaper</string>
+    <string name="lockscreen_wallpaper_summary">Set lockscreen wallpaper</string>
+    <string name="lockscreen_wallpaper_set_title">Set lock screen wallpaper</string>
+    <string name="lockscreen_wallpaper_clear_title">Clear lock screen wallpaper</string>
+    <string name="reset_lockscreen_wallpaper">Set to default</string>
+    <string name="lockscreen_options_title">Options</string>
+    <string name="lockscreen_wallpaper_cat">Wallpaper</string>
+    <string name="lockscreen_maxnotif_title">Lockscreen notification count</string>
+    <string name="lockscreen_maxnotif_sumary">Enable adjustment of max lockscreen notifications</string>
+    <string name="lockscreen_maxnotif_config">Max lockscreen notifications</string>
+
+    <!-- 4G LTE switch -->
+    <string name="show_fourg_title">Show 4G instead of LTE</string>
+    <string name="show_fourg_summary">Replaces LTE statusbar indicator with 4G</string>
+    <string name="statusbar_tuner_category_title">Hide items from statusbar</string>
+
+    <!-- 3G / HSPA switch -->
+    <string name="show_threeg_title">Show 3G instead of HSPA</string>
+    <string name="show_threeg_summary">Replaces H+ statusbar indicator with 3G .</string>
+
+    <!-- Wakelock blocker -->
+    <string name="wakelock_blocker_title">Wakelock Blocker</string>
+    <string name="wakelock_blocker_summary">Block system wakelocks</string>
+    <string name="wakelock_blocker_save">Save</string>
+    <string name="wakelock_list_header">Available wakelocks</string>
+    <string name="wakelock_blocker_reload">Reload</string>
+    <string name="wakelock_blocker_warning_title">Proceed with caution</string>
+    <string name="wakelock_blocker_warning">Blocking wakelocks have the potential to cause instability, crashes or data loss</string>
+
+    <!-- Show carrier label and custom color -->
+    <string name="carrier_options">Carrier Label</string>
+    <string name="show_status_bar_carrier_title">Status bar carrier</string>
+    <string name="show_status_bar_carrier_summary">Show carrier in status bar</string>
+    <string name="custom_carrier_label_title">Custom carrier label</string>
+    <string name="custom_carrier_label_explain">Please enter a new label. Leave blank to revert to stock label.</string> 	
+    <string name="status_bar_carrier_size">Carrier label text size</string>
+    <string name="custom_carrier_label_notset">Custom label currently not set</string>
+    <string name="status_bar_carrier_color">Carrier label color</string>
+    <string name="cancel">Cancel</string>
+    <string name="carrierlabel_sumary">Customize label text in statusbar</string>
+
+    <!-- Carrier Label -->
+    <string name="show_carrier_title">Carrier label</string>
+    <string name="show_carrier_disabled">Disabled</string>
+    <string name="show_carrier_keyguard">Keyguard carrier</string>
+    <string name="show_carrier_statusbar">Status bar carrier</string>
+    <string name="show_carrier_enabled">Enabled</string>
+
+    <string name="status_bar_carrier_font_style_title">Carrier Label Font</string>
+
+    <!-- Carrier Label - Hide based on notifications -->
+    <string name="text_title">Text</string>
+    <string name="number_of_notifications_title">Number of notifications</string>
+    <string name="number_of_notifications_one_title">1</string>
+    <string name="number_of_notifications_two_title">2</string>
+    <string name="number_of_notifications_three_title">3</string>
+    <string name="number_of_notifications_four_title">4</string>
+    <string name="number_of_notifications_five_title">5</string>
+    <string name="number_of_notifications_six_title">6</string>
+    <string name="carrier_label_hide_label_title">Hide on notifications</string>
+    <string name="carrier_label_number_of_notification_icons_title">Max Number of icons before hiding</string>
+	
+
+</resources>

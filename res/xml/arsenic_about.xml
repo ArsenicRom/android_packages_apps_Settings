@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- About Arsenic Rom-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    android:title="@string/about_arsenic_settings_title" >
+
+    <!-- Share NS ROM -->
+         <Preference
+             android:key="share"
+             android:title="@string/share_arsenic" />
+                
+ 	<PreferenceCategory
+		android:key="links"
+		android:title="@string/arsenic_links"> 
+
+        <!-- HTC Mania Link -->     
+		<Preference
+			android:key="arsenic_forum"
+			android:title="@string/htcm_forum_title"
+			android:summary="@string/htcm_forum_summary" />
+	<!-- DST Link -->     
+		<Preference
+			android:key="arsenic_forum_2"
+			android:title="@string/dst_forum_title"
+			android:summary="@string/dst_forum_summary" />
+        <!-- Sources github -->
+		<Preference
+			android:key="arsenic_source"
+			android:title="@string/arsenic_source_title"
+			android:summary="@string/arsenic_source_summary" />
+	<!-- Donation -->	
+		<Preference
+			android:key="arsenic_donate"
+			android:title="@string/arsenic_donate"
+			android:summary="@string/arsenic_donate_summary" />
+                			
+     </PreferenceCategory>
+
+     <PreferenceCategory
+        android:key="sourcebase"
+        android:title="@string/sourcebase_title">
+                
+        <Preference
+            android:key="arsenic_sourcebase"
+            android:title="@string/cm_sourcebase"
+            android:summary="@string/cm_sourcebase_sumary" />
+
+    </PreferenceCategory>
+		<!-- Thanks -->		
+	<PreferenceCategory
+        android:key="thanksrom"
+        android:title="@string/thanks"> 
+        
+        <PreferenceScreen android:key="forums"
+        android:title="@string/forums" />
+        <PreferenceScreen android:key="thanksall"
+        android:title="@string/thanks_all" />
+
+    </PreferenceCategory>
+            
+</PreferenceScreen>

@@ -130,11 +130,20 @@
 
         <activity android:name=".Settings$WirelessSettings"
             android:label="@string/header_category_wireless_networks">
-            <intent-filter android:priority="4">
+            <intent-filter android:priority="5">
                 <action android:name="com.android.settings.category.wireless" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".Settings$ArsenicSettings"
+            android:label="@string/arsenic_title">
+            <intent-filter android:priority="4">
+                <action android:name="com.android.settings.category.arsenic" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
 
         <activity android:name=".Settings$DeviceSettings"
             android:label="@string/header_category_device">
@@ -2495,6 +2504,20 @@
             android:launchMode="singleTop"
             android:theme="@style/CryptKeeperBlankTheme"
         />
+
+        <!-- Arsenic settings activity. -->
+        <activity android:name="Settings$ArsenicSettingsActivity"
+                android:label="@string/arsenic_settings_title"
+                android:icon="@drawable/ic_settings_more">
+            <intent-filter android:priority="1">
+                <action android:name="com.android.settings.action.SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.category"
+                android:value="com.android.settings.category.arsenic" />
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.arsenic.ArsenicSettings" />
+        </activity>
 
         <!-- Pseudo-activity used to provide an intent-filter entry point to encryption settings -->
         <activity android:name="Settings$CryptKeeperSettingsActivity"
