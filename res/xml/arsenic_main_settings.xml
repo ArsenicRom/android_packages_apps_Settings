@@ -22,8 +22,7 @@
 
     <!-- Arsenic Updater -->
     <PreferenceScreen 
-		android:key="cm_updates"
-                android:icon="@drawable/ic_settings_update" 
+		android:key="cm_updates" 
                 android:title="@string/cmupdate_settings_title"
                 android:summary="@string/system_update_settings_list_item_summary">
             <intent android:action="android.intent.action.MAIN"
@@ -36,7 +35,7 @@
         <PreferenceScreen
                 android:id="@+id/status_bar_settings"
                 android:title="@string/status_bar_title"
-                android:icon="@drawable/ic_settings_sim"
+		android:fragment="com.android.settings.arsenic.StatusBar"
                 />
 
 
