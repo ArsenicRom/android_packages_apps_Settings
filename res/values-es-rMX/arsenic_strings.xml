@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Arsenic Rom-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- About Arsenic -->
+    <string name="about_arsenic_settings_title">Acerca de Arsenic</string>
+    <string name="share_arsenic">Todo Sobre Arsenic</string>
+    <string name="arsenic_donate">¿Te gusta mi trabajo?</string>
+    <string name="arsenic_donate_summary">Haz una donación</string>
+    <string name="github_arsenic">https://github.com/Juancarlospr5</string>
+    <string name="arsenic_links">Links</string>
+    <string name="htcm_forum_title">HTC Mania</string>
+    <string name="htcm_forum_summary">Ver Tema en HTC Mania</string>
+    <string name="dst_forum_title">DarkSideTeam</string>
+    <string name="dst_forum_summary">Ver Tema en DarkSideTeam</string>
+    <string name="arsenic_source_title">GitHub</string>
+    <string name="arsenic_source_summary">Arsenic Sources</string>
+    <string name="sourcebase_title">Source Base</string>
+    <string name="thanks">Agradecimientos</string>
+    <string name="forums">Gracias a HTC Mania y DarkSideTeam</string>
+    <string name="thanks_all">Gracias por toda la ayuda</string>
+    <string name="cm_sourcebase">CyanogenMod</string>
+    <string name="cm_sourcebase_sumary">https://github.com/CyanogenMod</string>
+
+    <!-- SuperSU -->
+    <string name="supersu_title">SuperSU</string>
+
+    <!-- Kerneladiutor -->
+    <string name="kerneladiutor_title">Configuración del Kernel</string>
+
+    <!-- Network traffic -->
+    <string name="network_traffic_title">Tráfico de Red</string>
+    <string name="show_network_traffic_state">Monitor de tráfico en la barra de estado</string>
+    <string name="network_traffic_summary">Habilitar varias opciones de tráfico de red en la barra de estado</string>
+    <string name="show_network_traffic_unit">Unidades de visualización</string>
+    <string name="show_network_traffic_frequency">Intervalo de actualización</string>
+    <string name="show_network_traffic_disable">Inhabilitar</string>
+    <string name="show_network_traffic_up">Saliente</string>
+    <string name="show_network_traffic_down">Entrante</string>
+    <string name="show_network_traffic_all">Saliente y Entrante</string>
+    <string name="show_network_traffic_bit">Bits por segundo</string>
+    <string name="show_network_traffic_byte">Bytes por segundo</string>
+    <string name="show_network_traffic_500">500 ms</string>
+    <string name="show_network_traffic_1000">1000 ms</string>
+    <string name="show_network_traffic_1500">1500 ms</string>
+    <string name="show_network_traffic_2000">2000 ms</string>
+    <string name="network_traffic_autohide">Ocultar automáticamente</string>
+    <string name="network_traffic_autohide_summary">Ocultar el monitor de tráfico cuando no hay actividad</string>
+    <string name="network_traffic_autohide_threshold">Umbral de inactividad</string>
+
+    <!-- QS Tiles Columns -->
+    <string name="qs_num_columns_title">Número de ajustes QS por fila</string>
+    <string name="qs_num_columns_showing">Mostrar %1$s ajustes por fila</string>
+    <string name="arsenic_tuner_summary">test</string>
+
+    <!-- Notification Drawer -->
+    <string name="notification_drawer_title">Notification Drawer</string>
+    <string name="arsenic_qs_cat">Cortina de Ajustes Rápidos</string>
+    <string name="rr_qs">Quick Settings</string>
+    <string name="arsenic_brightness_cat">Barra de Brillo</string>
+    <string name="arsenic_qs_title">Panel de Ajustes rápidos</string>
+
+    <string name="arsenic_cat_title">Categorías</string>
+    <string name="arsenic_settings_title">Configuración Extra</string>
+
+    <!-- QuickSettings main tiles -->
+    <string name="quick_settings_title_enlarge_first_row">Ampliar la primera fila</string>
+    <string name="qs_main_tiles_summary_on">Dos ajustes principales en la primera fila</string>
+    <string name="qs_main_tiles_summary_off">3, 4 o 5 ajustes en cada fila</string>
+    
+    <!-- QuickSettings main tiles -->
+    <string name="quick_settings_title_advanced_location">Habilitar Localización Trizona En Qs</string>
+
+    <!-- Quick settings brightness slider -->
+    <string name="qs_brightness_slider_title">Barra de Brillo</string>
+    <string name="qs_brightness_slider_summary">Activar/Desactivar la barra de brillo en los ajustes rápidos</string>
+
+    <!-- Brightness Icon  -->
+    <string name="brightness_icon_title">Icono de brillo</string>
+    <string name="brightness_icon_summary">Activar/Desactivar el icono de brillo junto al control de brillo</string>
+
+    <!-- Lockscreen Settings -->
+    <string name="arsenic_lockscreen_title">Pantalla de Bloqueo</string>
+    <string name="arsenic_ls_ui">Ajustes Pantalla de Bloqueo</string>
+    <string name="arsenic_lockscreen_date">Fecha y Hora</string>
+    <string name="arsenic_ls_settings">Personalización</string>
+
+    <!-- Hide Lockscreen clock & date -->
+    <string name="hide_lockscreen_clock_title">Hora</string>
+    <string name="hide_lockscreen_clock_summary">Mostrar hora en pantalla de bloqueo</string>
+    <string name="hide_lockscreen_date_title">Fecha</string>
+    <string name="hide_lockscreen_date_summary">Mostrar fecha en pantalla de bloqueo</string>
+    <string name="hide_lockscreen_alarm_title">Alarmz</string>
+    <string name="hide_lockscreen_alarm_summary">Mostrar alarma en pantalla de bloqueo</string>
+
+    <!-- Charging lockscreen  -->
+    <string name="lock_screen_show_current">Carga de corriente</string>
+    <string name="lock_screen_show_current_summary">Mostrar el progreso de la carga en la pantalla de bloqueo</string>
+
+    <!-- Lockscreen wallpaper -->
+    <string name="lockscreen_wallpaper_title">Fondo de Pantalla</string>
+    <string name="lockscreen_wallpaper_summary">Establecer fondo de pantalla de bloqueo</string>
+    <string name="lockscreen_wallpaper_set_title">Establecer fondo de pantalla de bloqueo</string>
+    <string name="lockscreen_wallpaper_clear_title">Borrar fondo de pantalla de bloqueo</string>
+    <string name="reset_lockscreen_wallpaper">Establecer por defecto</string>
+    <string name="lockscreen_options_title">Opciones</string>
+    <string name="lockscreen_wallpaper_cat">Fondo de Pantalla</string>
+
+    <!-- 4G LTE switch -->
+    <string name="show_fourg_title">Mostrar 4G en lugar de LTE</string>
+    <string name="show_fourg_summary">Reemplaza LTE por 4G en la barra de estado</string>
+    <string name="statusbar_tuner_category_title">Ocultar elementos de la barra de estado</string>
+
+    <!-- 3G / HSPA switch -->
+    <string name="show_threeg_title">Mostrar 3G en lugar de HSPA</string>
+    <string name="show_threeg_summary">Reemplaza H+ por 3G en la barra de estado</string>
+
+    <!-- Wakelock blocker -->
+    <string name="wakelock_blocker_title">Bloqueador de Wakelocks</string>
+    <string name="wakelock_blocker_summary">Bloquear wakelocks de sistema</string>
+    <string name="wakelock_blocker_save">Guardar</string>
+    <string name="wakelock_list_header">Wakelocks disponibles</string>
+    <string name="wakelock_blocker_reload">Actualizar</string>
+    <string name="wakelock_blocker_warning_title">Proceder con precaución</string>
+    <string name="wakelock_blocker_warning">Bloquear wakelocks pueden causar la inestabilidad, cierres inesperados o pérdida de datos</string>
+  
+    <!-- Show carrier label and custom color -->
+    <string name="carrier_options">Nombre de operador</string>
+    <string name="show_status_bar_carrier_title">Nombre de operador en la barra de estado</string>
+    <string name="show_status_bar_carrier_summary">Mostrar el nombre del operador en la barra de estado</string>
+    <string name="custom_carrier_label_title">Nombre de operador personalizado</string>
+    <string name="custom_carrier_label_explain">Introduce una nueva etiqueta. Déjala en blanco para volver a la etiqueta por defecto.</string>
+    <string name="status_bar_carrier_size">Tamaño de texto de la etiqueta del operador</string>
+    <string name="custom_carrier_label_notset">Actualmente no se ha establecido una etiqueta personalizada</string>
+    <string name="status_bar_carrier_color">Color para el nombre del operador</string>
+    <string name="cancel">Cancelar</string>
+    <string name="carrierlabel_sumary">Personalizar el texto de la etiqueta del operador en la barra de estado</string>
+
+    <!-- Carrier Label -->
+    <string name="show_carrier_title">Etiqueta de Operador</string>
+    <string name="show_carrier_disabled">Deshabilitado</string>
+    <string name="show_carrier_keyguard">Operador en la pantalla de bloqueo</string>
+    <string name="show_carrier_statusbar">Nombre de operador en la barra de estado</string>
+    <string name="show_carrier_enabled">Habilitado</string>
+
+    <!-- Carrier Label - Hide based on notifications -->
+    <string name="text_title">Texto del tiempo</string>
+    <string name="number_of_notifications_title">Número de notificaciones</string>
+    <string name="number_of_notifications_one_title">1</string>
+    <string name="number_of_notifications_two_title">2</string>
+    <string name="number_of_notifications_three_title">3</string>
+    <string name="number_of_notifications_four_title">4</string>
+    <string name="number_of_notifications_five_title">5</string>
+    <string name="number_of_notifications_six_title">6</string>
+    <string name="carrier_label_hide_label_title">Ocultar etiqueta de operador</string>
+    <string name="carrier_label_number_of_notification_icons_title">Número máximo de iconos antes de ocultar</string>
+
+</resources>
