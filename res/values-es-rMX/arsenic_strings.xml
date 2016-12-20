@@ -155,4 +155,24 @@
     <string name="carrier_label_hide_label_title">Ocultar etiqueta de operador</string>
     <string name="carrier_label_number_of_notification_icons_title">Número máximo de iconos antes de ocultar</string>
 
+    <!-- Superuser indicator on status bar -->
+    <string name="show_su_indicator_title">Indicador de superusuario</string>
+    <string name="show_su_indicator_summary">Mostrar indicador de superusuario cuando una sesión está activa en la barra de estado</string>
+
+    <!-- Dashboard suggestions -->
+    <string name="dashboard_category">Opciones del panel de ajustes</string>
+    <string name="disable_suggestions_title">Deshabilitar sugerencias</string>
+    <string name="disable_suggestions_summary">Desactivar las sugerencias que aparacen hasta arriba de los ajustes</string>
+    <string name="remove_tile_summaries_title">Quitar información en los títulos del panel de ajustes</string>
+    <string name="remove_tile_summaries_summary">Remover las explicaciones mostradas bajo los títulos</string>
+
+    <!-- Smart pulldown-->
+    <string name="smart_pulldown_title">Despliegue inteligente</string>
+    <string name="smart_pulldown_summary">Abre el panel de Ajustes Rápidos cuando hay %1$s notificaciones</string>
+    <string name="smart_pulldown_none_summary">Abrir ajustes rápidos cuando no hay notificaciones</string>
+    <string name="smart_pulldown_off">Apagado</string>
+    <string name="smart_pulldown_none">Sin notificaciones</string>
+    <string name="smart_pulldown_dismissable">Descartable</string>
+    <string name="smart_pulldown_ongoing">No en curso</string>
+
 </resources>
