@@ -38,7 +38,11 @@
 		android:fragment="com.android.settings.arsenic.StatusBar"
                 />
 
-
+    <!-- QS Panel -->
+    <PreferenceScreen
+            android:id="@+id/qs_customizations"
+            android:title="@string/arsenic_qs_title"
+            android:fragment="com.android.settings.arsenic.QsPanel" />
                
 </PreferenceCategory>
 

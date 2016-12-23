@@ -172,7 +172,7 @@
     <string name="smart_pulldown_none_summary">Abrir ajustes rápidos cuando no hay notificaciones</string>
     <string name="smart_pulldown_off">Apagado</string>
     <string name="smart_pulldown_none">Sin notificaciones</string>
-    <string name="smart_pulldown_dismissable">Descartable</string>
+    <string name="smart_pulldown_dismissable">Desechables</string>
     <string name="smart_pulldown_ongoing">No en curso</string>
 
 </resources>
