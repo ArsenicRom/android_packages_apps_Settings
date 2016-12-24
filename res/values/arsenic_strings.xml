@@ -42,12 +42,6 @@
     <string name="network_traffic_autohide_summary">Hide the traffic monitor when there is no activity</string>
     <string name="network_traffic_autohide_threshold">Inactivity threshold</string>
 
-    <!-- QS Tiles Columns -->
-    <string name="qs_num_columns_title">Number of QS tiles per row</string>
-    <string name="qs_num_columns_showing">%1$s tiles per row showing</string>
-    <string name="systemui_tuner_qs_title">Quick Settings Tiles</string>
-    <string name="arsenic_tuner_summary">test</string>
-
     <!-- Notification Drawer -->
     <string name="notification_drawer_title">Notification Drawer</string>
     <string name="arsenic_qs_cat">Quick Settings PullDown</string>
@@ -61,13 +55,25 @@
     <string name="arsenic_activity_title">Arsenic Settings</string>
     <string name="status_bar_title">Status bar</string>
 
-    <!-- QuickSettings main tiles -->
-    <string name="qs_main_tiles_summary_on">Two main tiles on the first row</string>
-    <string name="qs_main_tiles_summary_off">3, 4 or 5 tiles on each row</string>
-    <string name="quick_settings_title_enlarge_first_row">Enlarge first row</string>
+    <!-- QS Tiles Columns -->
+    <string name="qs_tile_layout">Tile Layout</string>
+    <string name="arsenic_qs_layout">Layout</string>
     
-    <!-- QuickSettings main tiles -->
-    <string name="quick_settings_title_advanced_location">Enable Three Location States In Qs</string>
+    <!-- QS settings -->
+    <string name="status_bar_expanded_qs_settings">Layout</string>
+    <string name="status_bar_expanded_qs_settings_summary">Choose the number of rows and columns</string>
+    <string name="qs_port_rows_title">Portrait Rows</string>
+    <string name="qs_port_columns_title">Portrait Columns</string>
+    <string name="qs_land_rows_title">Landscape Rows</string>
+    <string name="qs_land_columns_title">Landscape Columns</string>
+    <string name="qs_rows_columns_1_title">1</string>
+    <string name="qs_rows_columns_2_title">2</string>
+    <string name="qs_rows_columns_3_title">3</string>
+    <string name="qs_rows_columns_4_title">4</string>
+    <string name="qs_rows_columns_5_title">5</string>
+    <string name="qs_rows_columns_6_title">6</string>
+    <string name="qs_rows_columns_7_title">7</string>
+    <string name="qs_rows_columns_8_title">8</string>
 
     <!-- Quick settings brightness slider -->
     <string name="qs_brightness_slider_title">Brightness Slider</string>
