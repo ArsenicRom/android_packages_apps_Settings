@@ -27,4 +27,11 @@
             android:fragment="com.android.settings.arsenic.QsLayout"
             android:title="@string/qs_tile_layout" />
 
+        <ListPreference
+            android:key="smart_pulldown"
+            android:title="@string/smart_pulldown_title"
+            android:entries="@array/smart_pulldown_entries"
+            android:entryValues="@array/smart_pulldown_values"
+            android:persistent="false" />
+
 </PreferenceScreen>

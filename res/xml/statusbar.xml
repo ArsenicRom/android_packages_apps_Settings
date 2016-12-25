@@ -17,13 +17,6 @@
         android:summaryOn="@string/su_indicator_summary_on"
         android:summaryOff="@string/su_indicator_summary_off"
         android:defaultValue="true" />
-
-        <ListPreference
-            android:key="smart_pulldown"
-            android:title="@string/smart_pulldown_title"
-            android:entries="@array/smart_pulldown_entries"
-            android:entryValues="@array/smart_pulldown_values"
-            android:persistent="false" />
  
         <com.android.settings.arsenic.SystemSettingSwitchPreference
             android:key="show_fourg"
