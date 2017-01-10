@@ -136,12 +136,19 @@
     <string name="cancel">Cancelar</string>
     <string name="carrierlabel_sumary">Personalizar el texto de la etiqueta del operador en la barra de estado</string>
 
-    <!-- Carrier Label -->
+    <!-- Carrier label -->
+    <string name="carrier_title">Nombre de operador</string>
+    <string name="carrier_options_summary">Personalizar la etiqueta del operador</string>
+    <string name="custom_carrier_label_title">Nombre de operador personalizado</string>
+    <string name="custom_carrier_label_explain">Introduce una nueva etiqueta. Déjala en blanco para volver a la etiqueta por defecto.</string>
+    <string name="custom_carrier_label_notset">Actualmente no se ha establecido una etiqueta personalizada</string>
     <string name="show_carrier_title">Etiqueta de Operador</string>
     <string name="show_carrier_disabled">Deshabilitado</string>
-    <string name="show_carrier_keyguard">Operador en la pantalla de bloqueo</string>
-    <string name="show_carrier_statusbar">Nombre de operador en la barra de estado</string>
-    <string name="show_carrier_enabled">Habilitado</string>
+    <string name="show_carrier_keyguard">Sólo en la pantalla de bloqueo</string>
+    <string name="show_carrier_statusbar">Solo barra de estado</string>
+    <string name="show_carrier_both">Pantalla de bloqueo y barra de estado</string>
+    <string name="show_carrier_enabled">Pantalla de bloqueo y barra de estado</string>
+    <string name="status_bar_carrier_color">Color para el nombre del operador</string>
 
     <!-- Carrier Label - Hide based on notifications -->
     <string name="text_title">Texto del tiempo</string>
