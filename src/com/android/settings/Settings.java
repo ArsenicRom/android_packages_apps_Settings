@@ -198,4 +198,5 @@ public class Settings extends SettingsActivity {
     // Arsenic Settings
     public static class ArsenicSettingsActivity extends SettingsActivity {}
     public static class ButtonsSettingsActivity extends SettingsActivity {}
+    public static class DevRunningServicesActivity extends SettingsActivity { /* empty */ }
 }
