@@ -7,7 +7,7 @@
     <string name="share_arsenic">Todo Sobre Arsenic</string>
     <string name="arsenic_donate">¿Te gusta mi trabajo?</string>
     <string name="arsenic_donate_summary">Haz una donación</string>
-    <string name="github_arsenic">https://github.com/Juancarlospr5</string>
+    <string name="github_arsenic">https://github.com/ArsenicRom</string>
     <string name="arsenic_links">Links</string>
     <string name="htcm_forum_title">HTC Mania</string>
     <string name="htcm_forum_summary">Ver Tema en HTC Mania</string>
@@ -19,8 +19,10 @@
     <string name="thanks">Agradecimientos</string>
     <string name="forums">Gracias a HTC Mania y DarkSideTeam</string>
     <string name="thanks_all">Gracias por toda la ayuda</string>
-    <string name="cm_sourcebase">CyanogenMod</string>
-    <string name="cm_sourcebase_sumary">https://github.com/CyanogenMod</string>
+    <string name="cm_sourcebase">LineageOS</string>
+    <string name="cm_sourcebase_sumary">https://github.com/LineageOS</string>
+
+    <string name="Arsenic_os">Versión de Arsenic</string>
 
     <!-- SuperSU -->
     <string name="supersu_title">SuperSU</string>
