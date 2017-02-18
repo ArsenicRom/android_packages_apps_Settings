@@ -845,6 +845,8 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
             }
         }
         resetDebuggerOptions();
+        resetRootAccessOptions();
+        resetAdbNotifyOptions();
         writeLogpersistOption(null, true);
         writeLogdSizeOption(null);
         resetRootAccessOptions();
@@ -948,6 +950,11 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
         updateRootAccessOptions();
     }
 
+    private void resetAdbNotifyOptions() {
+        CMSettings.Secure.putInt(getActivity().getContentResolver(),
+                CMSettings.Secure.ADB_NOTIFY, 1);
+    }
+
     private void resetRootAccessOptions() {
         String oldValue = SystemProperties.get(ROOT_ACCESS_PROPERTY, "0");
         SystemProperties.set(ROOT_ACCESS_PROPERTY, "0");
@@ -959,11 +966,6 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
                     Settings.Secure.ADB_ENABLED, 1);
         }
         updateRootAccessOptions();
-    }
-
-    private void resetAdbNotifyOptions() {
-        CMSettings.Secure.putInt(getActivity().getContentResolver(),
-                CMSettings.Secure.ADB_NOTIFY, 1);
     }
 
     private void updateHdcpValues() {
@@ -2408,6 +2410,14 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
             mLogpersistClearDialog.dismiss();
             mLogpersistClearDialog = null;
         }
+        if (mRootDialog != null) {
+            mRootDialog.dismiss();
+            mRootDialog = null;
+        }
+        if (mAdbTcpDialog != null) {
+            mAdbTcpDialog.dismiss();
+            mAdbTcpDialog = null;
+        }
         if (mUpdateRecoveryDialog != null) {
             mUpdateRecoveryDialog.dismiss();
             mUpdateRecoveryDialog = null;
@@ -2473,6 +2483,18 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
             } else {
                 updateLogpersistValues();
             }
+        } else if (dialog == mRootDialog) {
+            if (which == DialogInterface.BUTTON_POSITIVE) {
+                writeRootAccessOptions(mSelectedRootValue);
+            } else {
+                // Reset the option
+                writeRootAccessOptions("0");
+            }
+        } else if (dialog == mAdbTcpDialog) {
+            if (which == DialogInterface.BUTTON_POSITIVE) {
+                CMSettings.Secure.putInt(getActivity().getContentResolver(),
+                        CMSettings.Secure.ADB_PORT, 5555);
+            }
         } else if (dialog == mUpdateRecoveryDialog) {
             if (which == DialogInterface.BUTTON_POSITIVE) {
                 writeUpdateRecoveryOptions();
@@ -2500,6 +2522,12 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
             mAdbTcpDialog = null;
         } else if (dialog == mLogpersistClearDialog) {
             mLogpersistClearDialog = null;
+        } else if (dialog == mRootDialog) {
+            updateRootAccessOptions();
+            mRootDialog = null;
+        } else if (dialog == mAdbTcpDialog) {
+            updateAdbOverNetwork();
+            mAdbTcpDialog = null;
         } else if (dialog == mUpdateRecoveryDialog) {
             updateUpdateRecoveryOptions();
             mUpdateRecoveryDialog = null;
