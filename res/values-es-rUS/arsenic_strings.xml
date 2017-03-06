@@ -87,6 +87,11 @@
     <string name="arsenic_lockscreen_date">Fecha y Hora</string>
     <string name="arsenic_ls_settings">Personalización</string>
 
+    <!--Power menu on Secure Lockscreen -->
+    <string name="lockscreen_enable_power_menu_title">Mostrar menú de apagado en la pantalla de bloqueo</string>
+    <string name="lockscreen_enable_power_menu_summary">Esta opción solo desactivará el menú de apagado en las pantallas de bloqueo con seguridad establecida</string>
+
+
     <!-- Hide Lockscreen clock & date -->
     <string name="hide_lockscreen_clock_title">Hora</string>
     <string name="hide_lockscreen_clock_summary">Mostrar hora en pantalla de bloqueo</string>

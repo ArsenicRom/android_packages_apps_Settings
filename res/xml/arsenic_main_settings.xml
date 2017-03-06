@@ -33,6 +33,12 @@
             android:id="@+id/qs_customizations"
             android:title="@string/arsenic_qs_title"
             android:fragment="com.android.settings.arsenic.QsPanel" />
+
+    <!-- Lockscreen -->
+    <PreferenceScreen
+            android:id="@+id/lockscreen"
+            android:title="@string/arsenic_lockscreen_title"
+   	    android:fragment="com.android.settings.arsenic.LockScreenSettings" />
                
 </PreferenceCategory>
 
