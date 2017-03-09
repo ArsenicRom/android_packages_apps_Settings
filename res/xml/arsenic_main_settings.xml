@@ -40,6 +40,12 @@
             android:title="@string/arsenic_lockscreen_title"
    	    android:fragment="com.android.settings.arsenic.LockScreenSettings" />
                
+    <!-- Misc -->
+    <PreferenceScreen
+            android:id="@+id/misc"
+	    android:title="@string/arsenic_misc_title"
+   	    android:fragment="com.android.settings.arsenic.MiscSettings" />
+
 </PreferenceCategory>
 
 </PreferenceScreen>
