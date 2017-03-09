@@ -22,4 +22,16 @@
             android:summary="@string/lockscreen_enable_power_menu_summary"
             android:defaultValue="true" />
 
+    <com.android.settings.arsenic.SystemSettingSwitchPreference
+            android:key="hide_lockscreen_clock"
+            android:title="@string/hide_lockscreen_clock_title"
+            android:summary="@string/hide_lockscreen_clock_summary"
+       	    android:defaultValue="true" />
+
+    <com.android.settings.arsenic.SystemSettingSwitchPreference
+            android:key="hide_lockscreen_date"
+            android:title="@string/hide_lockscreen_date_title"
+            android:summary="@string/hide_lockscreen_date_summary"
+            android:defaultValue="true" />
+
 </PreferenceScreen>
