@@ -190,6 +190,13 @@
     <string name="smart_pulldown_dismissable">Descartable</string>
     <string name="smart_pulldown_ongoing">No en curso</string>
 
+    <!-- Selinux Switch -->
+    <string name="selinux_switch_title">Opciones de SELinux</string>
+    <string name="selinux_switch_summary">SELinux es un conjunto de modificaciones del kernel y utilidades a nivel de usuario. Cambiando el modo puede ocasionar efectos no deseados. Usar bajo su responsabilidad.</string>
+    <string name="selinux_title">Modo SELinux</string>
+    <string name="selinux_permissive_title">Permisivo</string>
+    <string name="selinux_enforcing_title">Obligatorio</string>
+
     <!-- Media art -->
     <string name="media_art_title">Caratula de música</string>
     <string name="media_art_summary">Activar carátula multimedia en la pantalla de bloqueo</string>
