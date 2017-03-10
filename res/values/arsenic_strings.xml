@@ -195,7 +195,7 @@
     <string name="smart_pulldown_ongoing">no ongoing</string>
 
     <!-- Selinux Switch -->
-    <string name="arsenic_misc_title">miscellaneous</string>
+    <string name="arsenic_misc_title">Miscellaneous</string>
     <string name="selinux_switch_title">Selinux Switch options</string>
     <string name="selinux_switch_summary">SELinux is a set of kernel modifications and user-space tools. Changing modes can cause unwanted effects. Use at your own risk</string>
     <string name="selinux_title">Selinux Mode</string>
@@ -205,5 +205,10 @@
     <!-- Media art -->
     <string name="media_art_title">Media cover art</string>
     <string name="media_art_summary">Enable media cover art on the lockscreen</string>
+
+    <!-- Lockscreen notif count -->
+    <string name="lockscreen_maxnotif_title">Lockscreen notification count</string>
+    <string name="lockscreen_maxnotif_sumary">Enable adjustment of max lockscreen notifications</string>
+    <string name="lockscreen_maxnotif_config">Max lockscreen notifications</string>
 
 </resources>
