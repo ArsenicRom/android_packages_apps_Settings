@@ -75,11 +75,11 @@
 
     <!-- Quick settings brightness slider -->
     <string name="qs_brightness_slider_title">Barra de Brillo</string>
-    <string name="qs_brightness_slider_summary">Activar/Desactivar la barra de brillo en los ajustes rápidos</string>
+    <string name="qs_brightness_slider_summary">Mostrar una barra de brillo en el panel de ajustes rápidos</string>
 
     <!-- Brightness Icon  -->
     <string name="brightness_icon_title">Icono de brillo</string>
-    <string name="brightness_icon_summary">Activar/Desactivar el icono de brillo junto al control de brillo</string>
+    <string name="brightness_icon_summary">Mostrar un icono de brillo a la izquierda de la barra de brillo para activar el brillo automatico</string>
 
     <!-- Lockscreen Settings -->
     <string name="arsenic_lockscreen_title">Pantalla de Bloqueo</string>

@@ -77,11 +77,11 @@
 
     <!-- Quick settings brightness slider -->
     <string name="qs_brightness_slider_title">Brightness Slider</string>
-    <string name="qs_brightness_slider_summary">Enable/Disable the brightness slider in Quick Settings</string>
+    <string name="qs_brightness_slider_summary">Show a Brightness Slider in the Quick Settings Panel</string>
 
     <!-- Brightness Icon  -->
     <string name="brightness_icon_title">Brightness Icon </string>
-    <string name="brightness_icon_summary">Enable Disable The Brightness Icon Existing Next To Brightness Slider</string>
+    <string name="brightness_icon_summary">Show a brightness Icon to the left of the brightness slider to adjust auto-brightness</string>
 
     <!-- Lockscreen Settings -->
     <string name="arsenic_lockscreen_title">Lock Screen</string>
