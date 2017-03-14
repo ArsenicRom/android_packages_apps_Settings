@@ -21,29 +21,29 @@
         android:title="@string/arsenic_qs_layout"
         android:key="qs_layout">
 
-          <ListPreference
+          <com.android.settings.arsenic.SeekBarPreference
               android:key="qs_rows_portrait"
               android:title="@string/qs_port_rows_title"
-              android:entries="@array/qs_rows_portrait_entries"
-              android:entryValues="@array/qs_rows_portrait_values" />
+              settings:max="4"
+              settings:min="1"/>
   
-          <ListPreference
+          <com.android.settings.arsenic.SeekBarPreference
               android:key="qs_columns_portrait"
               android:title="@string/qs_port_columns_title"
-              android:entries="@array/qs_columns_portrait_entries"
-              android:entryValues="@array/qs_columns_portrait_values" />
+              settings:max="8"
+              settings:min="3"/>
   
-          <ListPreference
+          <com.android.settings.arsenic.SeekBarPreference
               android:key="qs_rows_landscape"
               android:title="@string/qs_land_rows_title"
-              android:entries="@array/qs_rows_landscape_entries"
-              android:entryValues="@array/qs_rows_landscape_values" />
+              settings:max="3"
+              settings:min="1"/>
   
-          <ListPreference
+          <com.android.settings.arsenic.SeekBarPreference
               android:key="qs_columns_landscape"
               android:title="@string/qs_land_columns_title"
-              android:entries="@array/qs_columns_landscape_entries"
-              android:entryValues="@array/qs_columns_landscape_values" />
+              settings:max="8"
+              settings:min="3"/>
 
 </PreferenceCategory>
 

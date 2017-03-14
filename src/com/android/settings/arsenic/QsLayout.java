@@ -18,7 +18,6 @@ import android.content.res.Resources;
 import android.provider.Settings;
 import android.os.Bundle;
 import android.os.UserHandle;
-import android.support.v7.preference.ListPreference;
 import android.support.v14.preference.SwitchPreference;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceCategory;
@@ -39,10 +38,10 @@ public class QsLayout extends SettingsPreferenceFragment implements
     private static final String PREF_COLUMNS_LANDSCAPE = "qs_columns_landscape";
 	private static final String PREF_CAT_LAYOUT = "qs_layout";
 
-    private ListPreference mRowsPortrait;
-    private ListPreference mColumnsPortrait;
-    private ListPreference mRowsLandscape;
-    private ListPreference mColumnsLandscape;
+    private SeekBarPreference mRowsPortrait;
+    private SeekBarPreference mColumnsPortrait;
+    private SeekBarPreference mRowsLandscape;
+    private SeekBarPreference mColumnsLandscape;
 	protected Context mContext;
 	protected ContentResolver mContentRes;
 
@@ -67,41 +66,37 @@ public class QsLayout extends SettingsPreferenceFragment implements
 		  PreferenceCategory catLayout = (PreferenceCategory) findPreference(PREF_CAT_LAYOUT);
 
           mRowsPortrait =
-                  (ListPreference) findPreference(PREF_ROWS_PORTRAIT);
+                  (SeekBarPreference) findPreference(PREF_ROWS_PORTRAIT);
           int rowsPortrait = Settings.System.getInt(resolver,
                   Settings.System.QS_ROWS_PORTRAIT, 3);
-          mRowsPortrait.setValue(String.valueOf(rowsPortrait));
-          mRowsPortrait.setSummary(mRowsPortrait.getEntry());
+          mRowsPortrait.setValue(rowsPortrait);
           mRowsPortrait.setOnPreferenceChangeListener(this);
   
           mColumnsPortrait =
-                  (ListPreference) findPreference(PREF_COLUMNS_PORTRAIT);
+                  (SeekBarPreference) findPreference(PREF_COLUMNS_PORTRAIT);
           int columnsPortrait = Settings.System.getInt(resolver,
                   Settings.System.QS_COLUMNS_PORTRAIT, 3);
-          mColumnsPortrait.setValue(String.valueOf(columnsPortrait));
-          mColumnsPortrait.setSummary(mColumnsPortrait.getEntry());
+          mColumnsPortrait.setValue(columnsPortrait);
           mColumnsPortrait.setOnPreferenceChangeListener(this);
   
           defaultValue = res.getInteger(R.integer.config_qs_num_rows_landscape_default);
           if (defaultValue != 1) {
               mRowsLandscape =
-                      (ListPreference) findPreference(PREF_ROWS_LANDSCAPE);
+                      (SeekBarPreference) findPreference(PREF_ROWS_LANDSCAPE);
               int rowsLandscape = Settings.System.getInt(resolver,
                       Settings.System.QS_ROWS_LANDSCAPE, defaultValue);
-              mRowsLandscape.setValue(String.valueOf(rowsLandscape));
-              mRowsLandscape.setSummary(mRowsLandscape.getEntry());
+              mRowsLandscape.setValue(rowsLandscape);
               mRowsLandscape.setOnPreferenceChangeListener(this);
           } else {
               catLayout.removePreference(findPreference(PREF_ROWS_LANDSCAPE));
           }
   
           mColumnsLandscape =
-                  (ListPreference) findPreference(PREF_COLUMNS_LANDSCAPE);
+                  (SeekBarPreference) findPreference(PREF_COLUMNS_LANDSCAPE);
           defaultValue = res.getInteger(R.integer.config_qs_num_columns_landscape_default);
           int columnsLandscape = Settings.System.getInt(resolver,
                   Settings.System.QS_COLUMNS_LANDSCAPE, defaultValue);
-          mColumnsLandscape.setValue(String.valueOf(columnsLandscape));
-          mColumnsLandscape.setSummary(mColumnsLandscape.getEntry());
+          mColumnsLandscape.setValue(columnsLandscape);
           mColumnsLandscape.setOnPreferenceChangeListener(this);
 
     }
@@ -112,32 +107,24 @@ public class QsLayout extends SettingsPreferenceFragment implements
 		ContentResolver resolver = getActivity().getContentResolver();
 		final Resources res = getResources();
 		 if (preference == mRowsPortrait) {
-              intValue = Integer.valueOf((String) newValue);
-              index = mRowsPortrait.findIndexOfValue((String) newValue);
-              Settings.System.putInt(resolver,
-                      Settings.System.QS_ROWS_PORTRAIT, intValue);
-              preference.setSummary(mRowsPortrait.getEntries()[index]);
+              int layout = (Integer) newValue;
+              Settings.System.putInt(getContentResolver(),
+                    Settings.System.QS_ROWS_PORTRAIT, layout);
               return true;
           } else if (preference == mColumnsPortrait) {
-              intValue = Integer.valueOf((String) newValue);
-              index = mColumnsPortrait.findIndexOfValue((String) newValue);
-              Settings.System.putInt(resolver,
-                      Settings.System.QS_COLUMNS_PORTRAIT, intValue);
-              preference.setSummary(mColumnsPortrait.getEntries()[index]);
+              int layout = (Integer) newValue;
+              Settings.System.putInt(getContentResolver(),
+                    Settings.System.QS_COLUMNS_PORTRAIT, layout);
               return true;
           } else if (preference == mRowsLandscape) {
-              intValue = Integer.valueOf((String) newValue);
-              index = mRowsLandscape.findIndexOfValue((String) newValue);
-              Settings.System.putInt(resolver,
-                      Settings.System.QS_ROWS_LANDSCAPE, intValue);
-              preference.setSummary(mRowsLandscape.getEntries()[index]);
+              int layout = (Integer) newValue;
+              Settings.System.putInt(getContentResolver(),
+                    Settings.System.QS_ROWS_LANDSCAPE, layout);
               return true;
           } else if (preference == mColumnsLandscape) {
-              intValue = Integer.valueOf((String) newValue);
-              index = mColumnsLandscape.findIndexOfValue((String) newValue);
-              Settings.System.putInt(resolver,
-                      Settings.System.QS_COLUMNS_LANDSCAPE, intValue);
-              preference.setSummary(mColumnsLandscape.getEntries()[index]);
+              int layout = (Integer) newValue;
+              Settings.System.putInt(getContentResolver(),
+                    Settings.System.QS_COLUMNS_LANDSCAPE, layout);
               return true;
          }
         return false;

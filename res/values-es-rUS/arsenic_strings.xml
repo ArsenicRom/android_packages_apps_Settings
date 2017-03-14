@@ -53,7 +53,7 @@
     <!-- Notification Drawer -->
     <string name="notification_drawer_title">Notification Drawer</string>
     <string name="arsenic_qs_cat">Cortina de Ajustes Rápidos</string>
-    <string name="rr_qs">Ajustes rápido</string>
+    <string name="rr_qs">Ajustes rápidos</string>
     <string name="arsenic_brightness_cat">Barra de Brillo</string>
     <string name="arsenic_qs_title">Panel de Ajustes rápidos</string>
 
@@ -62,16 +62,18 @@
     <string name="status_bar_title">Barra de Estado</string>
 
     <!-- QS Tiles Columns -->
-    <string name="qs_tile_layout">Diseño de título</string>
+    <string name="qs_tile_layout">Diseño de ajustes rápidos</string>
+    <string name="qs_settings_summary">Elegir el número de filas y columnas</string>
     <string name="arsenic_qs_layout">Diseño</string>
     <!-- QS settings -->
     <string name="status_bar_expanded_qs_settings">Diseño</string>
     <string name="status_bar_expanded_qs_settings_summary">Elegir el número de filas y columnas</string>
     <!-- Quick settings tiles columns and rows config -->
     <string name="qs_layout_category">Diseño de ajustes rápidos</string>
-    <string name="qs_rows_portrait_title">Filas (vertical)</string>
-    <string name="qs_rows_landscape_title">Filas (horizontal)</string>
-    <string name="qs_columns_title">Columnas</string>
+    <string name="qs_port_rows_title">Filas (vertical)</string>
+    <string name="qs_land_rows_title">Filas (horizontal)</string>
+    <string name="qs_port_columns_title">Columnas (vertical)</string>
+    <string name="qs_land_columns_title">Columnas (horizontal)</string>
 
     <!-- Quick settings brightness slider -->
     <string name="qs_brightness_slider_title">Barra de Brillo</string>

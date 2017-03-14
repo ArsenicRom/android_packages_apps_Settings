@@ -25,7 +25,8 @@
         <PreferenceScreen
             android:key="arsenic_qs_layout"
             android:fragment="com.android.settings.arsenic.QsLayout"
-            android:title="@string/qs_tile_layout" />
+            android:title="@string/qs_tile_layout" 
+	    android:summary="@string/qs_settings_summary" />
 
         <ListPreference
             android:key="smart_pulldown"
