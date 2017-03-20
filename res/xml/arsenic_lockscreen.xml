@@ -41,6 +41,12 @@
             android:defaultValue="true" />
 
     <com.android.settings.arsenic.SystemSettingSwitchPreference
+            android:key="lockscreen_battery_info"
+            android:title="@string/lockscreen_battery_info_title"
+            android:summary="@string/lockscreen_battery_info_summary"
+            android:defaultValue="true" />
+
+    <com.android.settings.arsenic.SystemSettingSwitchPreference
             android:key="lock_screen_custom_notif"
             android:title="@string/lockscreen_maxnotif_title"
             android:summary="@string/lockscreen_maxnotif_sumary"

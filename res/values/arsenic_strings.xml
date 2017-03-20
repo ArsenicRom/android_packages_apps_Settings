@@ -97,10 +97,6 @@
     <string name="hide_lockscreen_alarm_title">Alarm</string>
     <string name="hide_lockscreen_alarm_summary">Show lockscreen alarm</string>
 
-    <!-- Charging lockscreen  -->
-    <string name="lock_screen_show_current">Charging Current</string>
-    <string name="lock_screen_show_current_summary">Show Charging Current rate on lock screen</string>
-
     <!--Power menu on Secure Lockscreen -->
     <string name="lockscreen_enable_power_menu_title">Show power menu lock screen</string>
     <string name="lockscreen_enable_power_menu_summary">This option will only disable the power menu on secure lock screens</string>
@@ -210,5 +206,9 @@
     <string name="lockscreen_maxnotif_title">Lockscreen notification count</string>
     <string name="lockscreen_maxnotif_sumary">Enable adjustment of max lockscreen notifications</string>
     <string name="lockscreen_maxnotif_config">Max lockscreen notifications</string>
+
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Lockscreen battery info</string>
+    <string name="lockscreen_battery_info_summary">Display negotiated charger max current-voltage and battery temperature on lockscreen while charging</string>
 
 </resources>

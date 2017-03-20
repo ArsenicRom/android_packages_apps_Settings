@@ -93,7 +93,6 @@
     <string name="lockscreen_enable_power_menu_title">Mostrar menú de apagado en la pantalla de bloqueo</string>
     <string name="lockscreen_enable_power_menu_summary">Esta opción solo desactivará el menú de apagado en las pantallas de bloqueo con seguridad establecida</string>
 
-
     <!-- Hide Lockscreen clock & date -->
     <string name="hide_lockscreen_clock_title">Hora</string>
     <string name="hide_lockscreen_clock_summary">Mostrar hora en pantalla de bloqueo</string>
@@ -101,10 +100,6 @@
     <string name="hide_lockscreen_date_summary">Mostrar fecha en pantalla de bloqueo</string>
     <string name="hide_lockscreen_alarm_title">Alarmz</string>
     <string name="hide_lockscreen_alarm_summary">Mostrar alarma en pantalla de bloqueo</string>
-
-    <!-- Charging lockscreen  -->
-    <string name="lock_screen_show_current">Carga de corriente</string>
-    <string name="lock_screen_show_current_summary">Mostrar el progreso de la carga en la pantalla de bloqueo</string>
 
     <!-- Lockscreen wallpaper -->
     <string name="lockscreen_wallpaper_title">Fondo de Pantalla</string>
@@ -208,5 +203,10 @@
     <string name="lockscreen_maxnotif_title">Contador de notificaciones en la pantalla de bloqueo</string>
     <string name="lockscreen_maxnotif_sumary">Activar límite de número máximo de notificaciones en la pantalla de bloqueo</string>
     <string name="lockscreen_maxnotif_config">Número máximo de notificaciones en la pantalla de bloqueo</string>
+
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Información de batería</string>
+    <string name="lockscreen_battery_info_summary">Mostrar corriente y voltaje máximos negociados con el cargador y la temperatura de la batería en la pantalla de bloqueo cuando se esté cargando</string>
+
 
 </resources>
