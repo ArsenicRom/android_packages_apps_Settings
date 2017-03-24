@@ -212,4 +212,26 @@
     <string name="battery_stats_reset">Reiniciar estadísticas</string>
     <string name="battery_stats_message">Las estadísticas de la batería van a restablecerse</string>
     <string name="ok_string">Aceptar</string>
+
+    <!-- SlimSizer - System App Remover  -->
+    <string name="listsystem">lista</string>
+    <string name="sizer_title">Desinstalador aplicaciones</string>
+    <string name="caution">¡Precaución!</string>
+    <string name="sizer_message_startup">Esta herramienta te permite borrar aplicaciones del sistema. Utilízala con precaución y elimina solamente aquellas aplicaciones que sepas que se pueden eliminar con seguridad.</string>
+    <string name="cancel">Cancelar</string>
+    <string name="sizer_message_delete">¿Está seguro que desea eliminar esta aplicación?</string>
+    <string name="btn_delete">¡Eliminar ahora las aplicaciones seleccionadas!</string>
+    <string name="delete_progress_title">Eliminando</string>
+    <string name="delete_progress">Los archivos seleccionados serán eliminados</string>
+    <string name="delete_success">Eliminado</string>
+    <string name="delete_fail">No se puede eliminar</string>
+    <string name="btn_profile">Perfil</string>
+    <string name="sizer_message_sdnowrite">No se puede escribir en la tarjeta SD.</string>
+    <string name="sizer_message_sdnoread">No se puede leer la tarjeta SD.</string>
+    <string name="sizer_message_filesuccess">Perfil creado.</string>
+    <string name="sizer_message_filefail">Error al crear el perfil.</string>
+    <string name="sizer_message_noselect">Nada seleccionado.</string>
+    <string name="system_app_remover">Eliminador de aplicaciones del sistema</string>
+    <string name="system_app_remover_summary">Quitar aplicaciones innecesarias del sistema</string>
+
 </resources>
