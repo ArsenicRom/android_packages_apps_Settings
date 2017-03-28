@@ -52,6 +52,7 @@ import com.android.internal.logging.MetricsProto.MetricsEvent;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.Utils;
+import com.android.settings.arsenic.SeekBarPreference;
 
 import java.util.Date;
 import java.util.List;
@@ -62,12 +63,14 @@ public class CarrierLabel extends SettingsPreferenceFragment implements
 
     private static final String STATUS_BAR_CARRIER = "status_bar_carrier";
     private static final String CUSTOM_CARRIER_LABEL = "custom_carrier_label";
+    private static final String HIDE_CARRIER_MAX_NOTIFICATION = "hide_carrier_max_notification";
 
     static final int DEFAULT_STATUS_CARRIER_COLOR = 0xffffffff;
 
     private ListPreference mShowCarrierLabel;
     private PreferenceScreen mCustomCarrierLabel;
     private String mCustomCarrierLabelText;
+    private SeekBarPreference mHideCarrierMaxNotification;
 
 
     @Override
@@ -92,6 +95,10 @@ public class CarrierLabel extends SettingsPreferenceFragment implements
         mShowCarrierLabel.setOnPreferenceChangeListener(this);
         mCustomCarrierLabel = (PreferenceScreen) prefSet.findPreference(CUSTOM_CARRIER_LABEL);
 
+        mHideCarrierMaxNotification = (SeekBarPreference) findPreference(HIDE_CARRIER_MAX_NOTIFICATION);
+        mHideCarrierMaxNotification.setValue(Settings.System.getInt(resolver,
+                Settings.System.HIDE_CARRIER_MAX_NOTIFICATION, 1));
+        mHideCarrierMaxNotification.setOnPreferenceChangeListener(this);
 
 
         updatepreferences();
@@ -117,7 +124,12 @@ public class CarrierLabel extends SettingsPreferenceFragment implements
             mShowCarrierLabel.setSummary(mShowCarrierLabel.getEntries()[index]);
             updatepreferences();
             return true;
-        }
+        }  else if (preference == mHideCarrierMaxNotification) {
+            int width = ((Integer)newValue).intValue();
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.HIDE_CARRIER_MAX_NOTIFICATION, width);
+            return true;
+        } 
       return false;
     }
 
