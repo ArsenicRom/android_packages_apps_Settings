@@ -98,7 +98,7 @@
     <string name="hide_lockscreen_clock_summary">Mostrar hora en pantalla de bloqueo</string>
     <string name="hide_lockscreen_date_title">Fecha</string>
     <string name="hide_lockscreen_date_summary">Mostrar fecha en pantalla de bloqueo</string>
-    <string name="hide_lockscreen_alarm_title">Alarmz</string>
+    <string name="hide_lockscreen_alarm_title">Alarma</string>
     <string name="hide_lockscreen_alarm_summary">Mostrar alarma en pantalla de bloqueo</string>
 
     <!-- Lockscreen wallpaper -->
