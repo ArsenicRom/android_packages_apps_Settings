@@ -234,4 +234,8 @@
     <string name="system_app_remover">Eliminador de aplicaciones del sistema</string>
     <string name="system_app_remover_summary">Quitar aplicaciones innecesarias del sistema</string>
 
+    <!-- QS easy toggles -->
+    <string name="qs_easy_toggle_title">Advanced Quick Setting Easy Toggle</string>
+    <string name="qs_easy_toggle_summary">Una pulsación hace que se active o desactive el Bluetooth, Data y WiFi en lugar de ir a las opciones</string>
+     
 </resources>

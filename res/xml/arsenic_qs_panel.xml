@@ -41,4 +41,11 @@
         	android:summary="@string/brightness_icon_summary"
         	android:defaultValue="false"/>
 
+        <com.android.settings.arsenic.Preferences.SecureSettingSwitchPreference
+	        android:key="qs_easy_toggle"
+	        android:title="@string/qs_easy_toggle_title"
+	        android:summary="@string/qs_easy_toggle_summary"
+	        android:defaultValue="false" />
+
+
 </PreferenceScreen>

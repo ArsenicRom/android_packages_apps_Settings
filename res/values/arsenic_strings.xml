@@ -23,7 +23,7 @@
     <string name="cm_sourcebase_sumary">https://github.com/CyanogenMod</string>
 
     <!-- Network traffic -->
-    <string name="network_traffic_title">Network traffic</string>
+    <string name="network_traffic_title">Network Traffic</string>
     <string name="show_network_traffic_state">Status bar traffic monitor</string>
     <string name="network_traffic_summary">Enable various network traffic options in statusbar</string>
     <string name="show_network_traffic_unit">Display unit</string>
@@ -57,6 +57,7 @@
 
     <!-- QS Tiles Columns -->
     <string name="qs_tile_layout">Tile Layout</string>
+    <string name="qs_tile_layout_summary">Customize quick settings tiles layout</string>
     <string name="arsenic_qs_layout">Layout</string>
     
     <!-- QS settings -->
@@ -170,19 +171,19 @@
     <string name="carrier_label_number_of_notification_icons_title">Max Number of icons before hiding</string>
 	
     <!-- Superuser indicator on status bar -->
-    <string name="su_indicator">Superuser indicator</string>
+    <string name="su_indicator">Superuser Indicator</string>
     <string name="su_indicator_summary_on">Superuser indicator is visible when a session is active</string>
     <string name="su_indicator_summary_off">Toggle to show superuser indicator when a session is active</string>
 
     <!-- Dashboard suggestions -->
     <string name="dashboard_category">Dashboard options</string>
-    <string name="disable_suggestions_title">Disable suggestions</string>
+    <string name="disable_suggestions_title">Disable Suggestions</string>
     <string name="disable_suggestions_summary">Disable the suggestions that appear on top of the dashboard</string>
-    <string name="remove_tile_summaries_title">Remove tile summaries</string>
+    <string name="remove_tile_summaries_title">Remove Tile Summaries</string>
     <string name="remove_tile_summaries_summary">Remove tiles summaries that display underneath tile titles</string>
 
     <!-- Smart pulldown-->
-    <string name="smart_pulldown_title">Smart pulldown</string>
+    <string name="smart_pulldown_title">Smart Pulldown</string>
     <string name="smart_pulldown_summary">Open quick settings when there are %1$s notifications</string>
     <string name="smart_pulldown_none_summary">Open quick settings when there are no notifications</string>
     <string name="smart_pulldown_off">Off</string>
@@ -192,27 +193,27 @@
 
     <!-- Selinux Switch -->
     <string name="arsenic_misc_title">Miscellaneous</string>
-    <string name="selinux_switch_title">Selinux Switch options</string>
-    <string name="selinux_switch_summary">SELinux is a set of kernel modifications and user-space tools. Changing modes can cause unwanted effects. Use at your own risk</string>
+    <string name="selinux_switch_title">Selinux Switch Options</string>
+    <string name="selinux_switch_summary">Selinux is a set of kernel modifications and user-space tools. Changing modes can cause unwanted effects. Use at your own risk</string>
     <string name="selinux_title">Selinux Mode</string>
     <string name="selinux_permissive_title">Permissive</string>
     <string name="selinux_enforcing_title">Enforcing</string>
 
     <!-- Media art -->
-    <string name="media_art_title">Media cover art</string>
+    <string name="media_art_title">Media Cover Art</string>
     <string name="media_art_summary">Enable media cover art on the lockscreen</string>
 
     <!-- Lockscreen notif count -->
-    <string name="lockscreen_maxnotif_title">Lockscreen notification count</string>
+    <string name="lockscreen_maxnotif_title">Lockscreen Notification Count</string>
     <string name="lockscreen_maxnotif_sumary">Enable adjustment of max lockscreen notifications</string>
-    <string name="lockscreen_maxnotif_config">Max lockscreen notifications</string>
+    <string name="lockscreen_maxnotif_config">Max Lockscreen Notifications</string>
 
     <!-- Lockscreen battery info indicator  -->
-    <string name="lockscreen_battery_info_title">Lockscreen battery info</string>
+    <string name="lockscreen_battery_info_title">Lockscreen Battery Info</string>
     <string name="lockscreen_battery_info_summary">Display negotiated charger max current-voltage and battery temperature on lockscreen while charging</string>
 
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Reset stats</string>
+    <string name="battery_stats_reset">Reset Stats</string>
     <string name="battery_stats_message">Battery history stats are going to be reset</string>
     <string name="ok_string">Ok</string>
 
@@ -237,4 +238,8 @@
     <string name="system_app_remover">System App Remover</string>
     <string name="system_app_remover_summary">Remove unnecessary system apps</string>
 
+    <!-- QS easy toggles -->
+    <string name="qs_easy_toggle_title">Advanced Quick Setting Easy Toggle</string>
+    <string name="qs_easy_toggle_summary">One tap action to toggle Bluetooth, Data, or Wi-Fi</string>
+     
 </resources>
