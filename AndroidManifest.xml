@@ -96,6 +96,8 @@
     <uses-permission android:name="android.permission.USE_RESERVED_DISK" />
     <uses-permission android:name="android.permission.MANAGE_SCOPED_ACCESS_DIRECTORY_PERMISSIONS" />
 
+    <protected-broadcast android:name="com.android.systemui.doze.pulse" />
+
     <application android:label="@string/settings_label"
             android:icon="@mipmap/ic_launcher"
             android:taskAffinity=""
@@ -3389,6 +3391,17 @@
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.arsenic.settings.fragments.Buttons" />
         </activity>
+
+        <receiver android:name="com.arsenic.settings.fragments.ui.DozeReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
+	    <service android:name="com.arsenic.settings.fragments.ui.DozeService"
+                android:permission="ArsenicDozeService">
+        </service>
 
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
