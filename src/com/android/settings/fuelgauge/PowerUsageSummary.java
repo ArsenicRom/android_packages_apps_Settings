@@ -76,7 +76,6 @@ public class PowerUsageSummary extends PowerUsageBase {
     private static final int MENU_STATS_RESET = Menu.FIRST + 5;
     @VisibleForTesting
     static final int MENU_ADDITIONAL_BATTERY_INFO = Menu.FIRST + 6;
-    private static final int MENU_HELP = Menu.FIRST + 7;
 
     private BatteryHistoryPreference mHistPref;
     private PreferenceGroup mAppListGroup;
