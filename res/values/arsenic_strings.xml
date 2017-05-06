@@ -9,10 +9,10 @@
     <string name="arsenic_donate_summary">Make a donation</string>
     <string name="github_arsenic">https://github.com/Juancarlospr5</string>
     <string name="arsenic_links">Links</string>
-    <string name="htcm_forum_title">HTC Mania Thread</string>
+    <string name="htcm_forum_title">HTC Mania OnePlus One Thread</string>
     <string name="htcm_forum_summary">View HTC Mania Thread </string>
-    <string name="dst_forum_title">DarkSideTeam Thread</string>
-    <string name="dst_forum_summary">View DarkSideTeam Thread </string>
+    <string name="htcm2_forum_title">HTC Mania OnePlus 3 Thread</string>
+    <string name="htcm2_forum_summary">View HTC Mania Thread </string>
     <string name="arsenic_source_title">GitHub</string>
     <string name="arsenic_source_summary">Arsenic Sources</string>
     <string name="sourcebase_title">Source Base</string>

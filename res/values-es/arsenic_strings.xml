@@ -9,10 +9,10 @@
     <string name="arsenic_donate_summary">Haz una donación</string>
     <string name="github_arsenic">https://github.com/ArsenicRom</string>
     <string name="arsenic_links">Links</string>
-    <string name="htcm_forum_title">HTC Mania</string>
+    <string name="htcm_forum_title">HTC Mania - OnePlus One</string>
     <string name="htcm_forum_summary">Ver Tema en HTC Mania</string>
-    <string name="dst_forum_title">DarkSideTeam</string>
-    <string name="dst_forum_summary">Ver Tema en DarkSideTeam</string>
+    <string name="htcm2_forum_title">HTC Mania - OnePlus 3</string>
+    <string name="htcm2_forum_summary">Ver Tema en HTC Mania</string>
     <string name="arsenic_source_title">GitHub</string>
     <string name="arsenic_source_summary">Arsenic Sources</string>
     <string name="sourcebase_title">Source Base</string>

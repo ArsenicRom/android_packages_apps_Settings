@@ -19,11 +19,11 @@
 			android:key="arsenic_forum"
 			android:title="@string/htcm_forum_title"
 			android:summary="@string/htcm_forum_summary" />
-	<!-- DST Link -->     
+	<!-- HTC Mania 2 Link -->     
 		<Preference
 			android:key="arsenic_forum_2"
-			android:title="@string/dst_forum_title"
-			android:summary="@string/dst_forum_summary" />
+			android:title="@string/htcm2_forum_title"
+			android:summary="@string/htcm2_forum_summary" />
         <!-- Sources github -->
 		<Preference
 			android:key="arsenic_source"

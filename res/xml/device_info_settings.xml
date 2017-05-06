@@ -39,6 +39,13 @@
                     android:targetClass="@string/additional_system_update_menu" />
         </PreferenceScreen>
 
+        <!-- Arsenic About -->
+        <PreferenceScreen android:key="arsenic_info"
+                android:title="@string/about_arsenic_settings_title"
+                android:summary="@string/share_arsenic"
+                android:fragment="com.android.settings.arsenic.about.about">
+        </PreferenceScreen>
+
         <!-- LineageOS Updates -->
         <cyanogenmod.preference.SelfRemovingPreference android:key="cm_updates"
                 android:title="@string/cmupdate_settings_title"

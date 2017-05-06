@@ -103,9 +103,9 @@ private static final String ARSENIC_ROM_SHARE = "share";
     @Override
     public boolean onPreferenceTreeClick(Preference preference) {
         if (preference == mForumUrl) {
-            launchUrl("http://www.htcmania.com/search.php?searchid=56674384");
+            launchUrl("http://www.htcmania.com/showthread.php?t=1259846");
         } else if (preference == mForumUrl2) {
-            launchUrl("http://www.darksideteam.com/search.php?searchid=403251");
+            launchUrl("http://www.htcmania.com/showthread.php?t=1260910");
         } else if (preference == mSourceUrl) {
             launchUrl("https://github.com/ArsenicRom");
         } else if (preference == mDonateUrl) {
