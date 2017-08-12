@@ -255,4 +255,8 @@
     <string name="night_mode_auto">Automatic</string>
     <string name="keywords_display_night_mode">dark theme night mode dim screen invert brightness</string>
 
+    <!-- Quicks settings vibrate -->
+    <string name="quick_settings_vibrate_title">Vibrate on touch</string>
+    <string name="quick_settings_vibrate_summary">Vibrate when touching tiles</string>
+
 </resources>

@@ -47,5 +47,9 @@
 	        android:summary="@string/qs_easy_toggle_summary"
 	        android:defaultValue="false" />
 
-
+        <com.android.settings.arsenic.SystemSettingSwitchPreference
+            android:key="quick_settings_vibrate"
+            android:title="@string/quick_settings_vibrate_title"
+            android:summary="@string/quick_settings_vibrate_summary"
+            android:defaultValue="false"/>
 </PreferenceScreen>
