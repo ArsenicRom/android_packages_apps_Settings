@@ -237,5 +237,18 @@
     <!-- QS easy toggles -->
     <string name="qs_easy_toggle_title">Interruptor avanzado de ajustes rapidos</string>
     <string name="qs_easy_toggle_summary">Una pulsación hace que se active o desactive el Bluetooth, Data y WiFi en lugar de ir a las opciones</string>
+
+    <!-- DayNight Theme -->
+    <!-- Sound & display settings screen, setting option name to change the user interface theme [CHAR LIMIT=30] -->
+    <string name="night_mode_title">Tema</string>
+    <!-- Sound & display settings screen, setting option summary to change the user interface theme [CHAR LIMIT=100] -->
+    <string name="night_mode_summary">%s</string>
+    <!-- Sound & display settings screen, theme setting value to prefer a light-colored user interface [CHAR LIMIT=30] -->
+    <string name="night_mode_no">Claro</string>
+    <!-- Sound & display settings screen, theme setting value to prefer a dark-colored user interface [CHAR LIMIT=30] -->
+    <string name="night_mode_yes">Oscuro</string>
+    <!-- Sound & display settings screen, theme setting value to automatically switch between a light- or dark-colored user interface [CHAR LIMIT=30] -->
+    <string name="night_mode_auto">Automatico</string>
+    <string name="keywords_display_night_mode">dark theme night mode dim screen invert brightness</string>
      
 </resources>
