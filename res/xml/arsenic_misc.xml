@@ -45,10 +45,16 @@
 	    android:fragment="com.android.settings.arsenic.SystemappRemover" />
 
 	<!-- Three-fingers-swipe to screenshot -->
-        <PreferenceScreen
+    <PreferenceCategory
+            android:key="gestures_category"
+            android:title="@string/gestures_category">
+
+        <com.android.settings.arsenic.SystemSettingSwitchPreference
              android:key="three_finger_gesture"
              android:title="@string/three_finger_gesture"
              android:summary="@string/three_finger_gesture_summary"
-	     android:fragment="com.android.settings.arsenic.SystemSettingSwitchPreference"
              android:defaultValue="false" />
+
+    </PreferenceCategory>
+
 </PreferenceScreen>

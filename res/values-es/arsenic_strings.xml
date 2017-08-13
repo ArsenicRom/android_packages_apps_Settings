@@ -251,4 +251,19 @@
     <string name="night_mode_auto">Automatico</string>
     <string name="keywords_display_night_mode">dark theme night mode dim screen invert brightness</string>
      
+    <!-- Quicks settings vibrate -->
+    <string name="quick_settings_vibrate_title">Vibrar al tocar</string>
+    <string name="quick_settings_vibrate_summary">Vibra al tocar un ajuste</string>
+
+    <!-- fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">Vibración al autenticar huella digital</string>
+    <string name="fprint_sucess_vib_summary">Vibra al autenticar exitosamente tu huella</string>
+
+    <!-- Gestures category -->
+    <string name="gestures_category">Gestos</string>
+
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Deslizar para captura de pantalla</string>
+    <string name="three_finger_gesture_summary">Desliza tres dedos para tomar una captura</string>
+
 </resources>
