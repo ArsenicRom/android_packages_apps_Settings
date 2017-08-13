@@ -272,4 +272,8 @@
     <!-- Toast icon -->
     <string name="toast_icon_title">Icono Toast</string>
     <string name="toast_icon_summary">Muestra el icono de la actividad que genera el mensaje emergente</string>
+
+    <!-- Screenshot Sound  -->
+    <string name="screenshot_sound_title">Activar sonido para captura de pantalla</string>
+    <string name="screenshot_sound_summary">Opción para activar o desactivar el sonido de captura de pantalla</string>
 </resources>

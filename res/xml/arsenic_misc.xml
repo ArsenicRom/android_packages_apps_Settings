@@ -67,6 +67,11 @@
             android:summary="@string/toast_icon_summary"
             android:defaultValue="true" />
 
+        <com.android.settings.arsenic.SystemSettingSwitchPreference
+            android:key="screenshot_sound"
+            android:title="@string/screenshot_sound_title"
+            android:summary="@string/screenshot_sound_summary"
+            android:defaultValue="true" />
     </PreferenceCategory>
 
 </PreferenceScreen>
