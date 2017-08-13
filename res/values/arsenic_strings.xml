@@ -270,4 +270,10 @@
     <string name="three_finger_gesture">Swipe to screenshot</string>
     <string name="three_finger_gesture_summary">Swipe three fingers to take screenshot</string>
 
+    <!-- Other system settings category -->
+    <string name="misc_category">Other settings</string>
+
+    <!-- Toast icon -->
+    <string name="toast_icon_title">Toast icon</string>
+    <string name="toast_icon_summary">Display icon of activity that generates toast message</string>
 </resources>

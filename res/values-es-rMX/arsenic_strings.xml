@@ -266,4 +266,10 @@
     <string name="three_finger_gesture">Deslizar para captura de pantalla</string>
     <string name="three_finger_gesture_summary">Desliza tres dedos para tomar una captura</string>
 
+    <!-- Other system settings category -->
+    <string name="misc_category">Otros Ajustes</string>
+
+    <!-- Toast icon -->
+    <string name="toast_icon_title">Icono Toast</string>
+    <string name="toast_icon_summary">Muestra el icono de la actividad que genera el mensaje emergente</string>
 </resources>
