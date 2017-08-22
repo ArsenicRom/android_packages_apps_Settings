@@ -72,6 +72,12 @@
             android:title="@string/screenshot_sound_title"
             android:summary="@string/screenshot_sound_summary"
             android:defaultValue="true" />
+
+        <com.android.settings.arsenic.SystemSettingSwitchPreference
+            android:key="sensor_block"
+            android:title="@string/sensor_block_title"
+            android:summary="@string/sensor_block_summary"
+            android:defaultValue="false" />
     </PreferenceCategory>
 
 </PreferenceScreen>
