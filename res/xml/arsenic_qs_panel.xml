@@ -52,4 +52,10 @@
             android:title="@string/quick_settings_vibrate_title"
             android:summary="@string/quick_settings_vibrate_summary"
             android:defaultValue="false"/>
+
+        <com.android.settings.arsenic.SystemSettingSwitchPreference
+            android:key="quick_tile_add"
+            android:title="@string/single_tap_tile_add_title"
+            android:summary="@string/single_tap_tile_add_summary"
+            android:defaultValue="false"/>
 </PreferenceScreen>
