@@ -44,6 +44,14 @@
             android:summary="@string/system_app_remover_summary"
 	    android:fragment="com.android.settings.arsenic.SystemappRemover" />
 
+        <!-- FingerPrint Gesture -->
+        <PreferenceScreen
+            android:key="arsenic_fp"
+            android:title="@string/arsenic_fp_title"
+            android:summary="@string/rr_fp_summary"
+            android:icon="@drawable/arsenic_fingerprint_icon"
+            android:fragment="com.android.settings.arsenic.FingerPrintSettings" />
+
 	<!-- Three-fingers-swipe to screenshot -->
     <PreferenceCategory
             android:key="gestures_category"
