@@ -22,6 +22,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
+import android.hardware.fingerprint.FingerprintManager;
 import android.os.Bundle;
 import android.os.Build;
 import com.android.settings.util.AbstractAsyncSuCMDProcessor;
@@ -55,6 +56,8 @@ public class MiscSettings extends SettingsPreferenceFragment  implements OnPrefe
     private static final String SELINUX = "selinux";
 
     private SwitchPreference mSelinux;
+    private FingerprintManager mFingerprintManager;
+    private SwitchPreference mFingerprintVib;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -75,6 +78,11 @@ public class MiscSettings extends SettingsPreferenceFragment  implements OnPrefe
             mSelinux.setSummary(R.string.selinux_permissive_title);
         }
 
+        mFingerprintManager = (FingerprintManager) getActivity().getSystemService(Context.FINGERPRINT_SERVICE);        
+        mFingerprintVib = (SwitchPreference) findPreference("fingerprint_success_vib");
+        if (!mFingerprintManager.isHardwareDetected()){
+            getPreferenceScreen().removePreference(mFingerprintVib);
+        }
     }
 
     @Override
