@@ -19,6 +19,7 @@ import android.content.Context;
 import android.content.ContentResolver;
 import android.content.res.Configuration;
 import android.content.res.Resources;
+import android.hardware.fingerprint.FingerprintManager;
 import android.os.Bundle;
 import android.os.RemoteException;
 import android.support.v7.preference.ListPreference;
@@ -41,6 +42,7 @@ public class QsPanel extends SettingsPreferenceFragment implements
     private static final String TAG = "QsPanel";
 
 	private static final String PREF_SMART_PULLDOWN = "smart_pulldown";
+	private static final String PREF_QUICK_PULLDOWN_FP = "quick_pulldown_fp";
 
 	private ListPreference mSmartPulldown;
 
@@ -53,12 +55,24 @@ public class QsPanel extends SettingsPreferenceFragment implements
         PreferenceScreen prefSet = getPreferenceScreen();
 	ContentResolver resolver = getActivity().getContentResolver();
 
+	mFingerprintManager = (FingerprintManager) getActivity().getSystemService(Context.FINGERPRINT_SERVICE);
+
         mSmartPulldown = (ListPreference) findPreference(PREF_SMART_PULLDOWN);
         mSmartPulldown.setOnPreferenceChangeListener(this);
         int smartPulldown = Settings.System.getInt(resolver,
                 Settings.System.QS_SMART_PULLDOWN, 0);
         mSmartPulldown.setValue(String.valueOf(smartPulldown));
         updateSmartPulldownSummary(smartPulldown);
+
+        mQuickPulldownFp = (SystemSettingSwitchPreference) findPreference(PREF_QUICK_PULLDOWN_FP);
+        if (!mFingerprintManager.isHardwareDetected()) {
+             getPreferenceScreen().removePreference(mQuickPulldownFp);
+        } else {
+             mQuickPulldownFp.setChecked((Settings.System.getInt(getContentResolver(),
+                   Settings.System.STATUS_BAR_QUICK_QS_PULLDOWN_FP, 0) == 1));
+             mQuickPulldownFp.setOnPreferenceChangeListener(this);
+        }
+
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
@@ -68,7 +82,12 @@ public class QsPanel extends SettingsPreferenceFragment implements
             Settings.System.putInt(resolver, Settings.System.QS_SMART_PULLDOWN, smartPulldown);
             updateSmartPulldownSummary(smartPulldown);
             return true;
-	}
+	} else if (preference == mQuickPulldownFp) {
+            boolean value = (Boolean) newValue;
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.STATUS_BAR_QUICK_QS_PULLDOWN_FP, value ? 1 : 0);
+            return true;
+        }
         return false;
     }
 
