@@ -276,4 +276,26 @@
     <!-- Screenshot Sound  -->
     <string name="screenshot_sound_title">Activar sonido para captura de pantalla</string>
     <string name="screenshot_sound_summary">Opción para activar o desactivar el sonido de captura de pantalla</string>
+
+    <!-- Sensor block per-package -->
+    <string name="sensor_block_title">Bloqueo de sensor por paquete</string>
+    <string name="sensor_block_summary">Bloquea el acceso a ciertos sensores de algunas aplicaciones para ahorrar batería.</string>
+
+    <!-- Qs easy tile add -->
+    <string name="single_tap_tile_add_title">Añadir fácilmente a configuración rápida</string>
+    <string name="single_tap_tile_add_summary">Añadir botones a la configuración rápida desde el editor de configuración rápida simplemente tocando en vez de arrastrarlos</string>
+
+    <!-- FP gesture -->
+    <string name="quick_pulldown_fp_title">Configuracion rápida de huella digital</string>
+    <string name="quick_pulldown_fp_summary">Expanda el panel de configuración rápida con sólo un toque del sensor de huella</string>
+    <string name="arsenic_fp_title">Ajustes de huella</string>
+    <string name="arsenic_fp_summary">Expanda el panel de configuración rápida con sólo un toque del sensor de huella</string>
+    <string name="fp_swipe_call_actions_title">Gestos de huella dactilar en llamada</string>
+    <string name="fp_swipe_call_actions_disabled">Desactivado</string>
+    <string name="fp_swipe_call_actions_updown_answer_call">Deslizar hacia arriba o hacia abajo para responder a las llamadas entrantes</string>
+    <string name="fp_swipe_call_actions_up_answer_down_silence">Deslice hacia arriba hasta responder a las llamadas entrantes, hacia abajo para silenciarlas</string>
+
+    <!-- Fingerprint unlock keystore -->
+    <string name="fp_unlock_keystore_title">Desbloqueo con huella digital</string>
+    <string name="fp_unlock_keystore_summary">Desbloqueo con huella digital después de reiniciar el dispositivo sin PIN/contraseña/Patrón\nNota: bajo su propio riesgo!</string>
 </resources>
