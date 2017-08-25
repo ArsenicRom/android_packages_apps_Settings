@@ -86,12 +86,6 @@
             android:summary="@string/sensor_block_summary"
             android:defaultValue="false" />
 
-        <!-- FingerPrint Gesture -->
-        <PreferenceScreen
-            android:key="arsenic_fp"
-            android:title="@string/arsenic_fp_title"
-            android:summary="@string/arsenic_fp_summary"
-            android:fragment="com.android.settings.arsenic.FingerPrintSettings" />
     </PreferenceCategory>
 
 </PreferenceScreen>
