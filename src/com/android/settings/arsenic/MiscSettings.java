@@ -56,8 +56,8 @@ public class MiscSettings extends SettingsPreferenceFragment  implements OnPrefe
     private static final String SELINUX = "selinux";
 
     private SwitchPreference mSelinux;
-    private FingerprintManager mFingerprintManager;
-    private SwitchPreference mFingerprintVib;
+	private FingerprintManager mFingerprintManager;
+	private PreferenceScreen mFingerprint;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -65,6 +65,13 @@ public class MiscSettings extends SettingsPreferenceFragment  implements OnPrefe
 
         addPreferencesFromResource(R.xml.arsenic_misc);
   	final ContentResolver resolver = getActivity().getContentResolver();
+
+
+	mFingerprintManager = (FingerprintManager) getActivity().getSystemService(Context.FINGERPRINT_SERVICE);
+	mFingerprint = (PreferenceScreen) findPreference("arsenic_fp");
+	if (!mFingerprintManager.isHardwareDetected()){
+	     getPreferenceScreen().removePreference(mFingerprint);
+	}
 
 	//SELinux
         mSelinux = (SwitchPreference) findPreference(SELINUX);
@@ -78,11 +85,6 @@ public class MiscSettings extends SettingsPreferenceFragment  implements OnPrefe
             mSelinux.setSummary(R.string.selinux_permissive_title);
         }
 
-        mFingerprintManager = (FingerprintManager) getActivity().getSystemService(Context.FINGERPRINT_SERVICE);        
-        mFingerprintVib = (SwitchPreference) findPreference("fingerprint_success_vib");
-        if (!mFingerprintManager.isHardwareDetected()){
-            getPreferenceScreen().removePreference(mFingerprintVib);
-        }
     }
 
     @Override

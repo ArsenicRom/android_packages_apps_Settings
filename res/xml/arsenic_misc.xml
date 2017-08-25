@@ -48,8 +48,7 @@
         <PreferenceScreen
             android:key="arsenic_fp"
             android:title="@string/arsenic_fp_title"
-            android:summary="@string/rr_fp_summary"
-            android:icon="@drawable/arsenic_fingerprint_icon"
+            android:summary="@string/arsenic_fp_summary"
             android:fragment="com.android.settings.arsenic.FingerPrintSettings" />
 
 	<!-- Three-fingers-swipe to screenshot -->
@@ -86,6 +85,13 @@
             android:title="@string/sensor_block_title"
             android:summary="@string/sensor_block_summary"
             android:defaultValue="false" />
+
+        <!-- FingerPrint Gesture -->
+        <PreferenceScreen
+            android:key="arsenic_fp"
+            android:title="@string/arsenic_fp_title"
+            android:summary="@string/arsenic_fp_summary"
+            android:fragment="com.android.settings.arsenic.FingerPrintSettings" />
     </PreferenceCategory>
 
 </PreferenceScreen>

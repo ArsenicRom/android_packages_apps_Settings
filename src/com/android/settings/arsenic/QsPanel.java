@@ -30,6 +30,7 @@ import android.support.v7.preference.PreferenceScreen;
 import android.provider.Settings;
 
 import com.android.internal.logging.MetricsProto.MetricsEvent;
+import com.android.settings.arsenic.SystemSettingSwitchPreference;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
@@ -45,6 +46,8 @@ public class QsPanel extends SettingsPreferenceFragment implements
 	private static final String PREF_QUICK_PULLDOWN_FP = "quick_pulldown_fp";
 
 	private ListPreference mSmartPulldown;
+	private SystemSettingSwitchPreference mQuickPulldownFp;
+	private FingerprintManager mFingerprintManager;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {

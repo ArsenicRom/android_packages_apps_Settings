@@ -18,7 +18,7 @@
     android:title="@string/arsenic_fp_title">
 
 
-        <com.android.settings.rr.Preferences.SystemSettingSwitchPreference
+        <com.android.settings.arsenic.SystemSettingSwitchPreference
             android:key="quick_pulldown_fp"
             android:title="@string/quick_pulldown_fp_title"
             android:summary="@string/quick_pulldown_fp_summary"
@@ -32,7 +32,7 @@
             android:entryValues="@array/fp_swipe_call_actions_values"
             android:defaultValue="0" />
 
-        <com.android.settings.rr.Preferences.SystemSettingSwitchPreference
+        <com.android.settings.arsenic.SystemSettingSwitchPreference
             android:key="fingerprint_success_vib"
             android:title="@string/fprint_sucess_vib_title"
             android:summary="@string/fprint_sucess_vib_summary"

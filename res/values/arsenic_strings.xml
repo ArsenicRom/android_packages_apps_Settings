@@ -292,13 +292,13 @@
     <string name="sensor_block_summary">Block access to certain sensors for some apps to save battery.</string>
 
     <!-- Qs easy tile add -->
-    <string name="single_tap_tile_add_title">Easy tile add</string>
+    <string name="single_tap_tile_add_title">Easy Tile Add</string>
     <string name="single_tap_tile_add_summary">Add quick tiles easily from qs customizer by simply tapping on them instead of dragging them</string>
 
     <!-- FP gesture -->
-    <string name="quick_pulldown_fp_title">Fingerprint quick pulldown</string>
+    <string name="quick_pulldown_fp_title">Fingerprint Quick Pulldown</string>
     <string name="quick_pulldown_fp_summary">Expand the quick settings panel with only one swipe of the fingerprint sensor</string>
-    <string name="arsenic_fp_title">Fingerprint settings</string>
+    <string name="arsenic_fp_title">Fingerprint Settings</string>
     <string name="arsenic_fp_summary">Customize various options for the fingerpint sensor</string>
     <string name="fp_swipe_call_actions_title">Fingerprint call gestures</string>
     <string name="fp_swipe_call_actions_disabled">Disabled</string>
@@ -306,6 +306,6 @@
     <string name="fp_swipe_call_actions_up_answer_down_silence">Swipe up to respond to incoming calls, down to silence them</string>
 
     <!-- Fingerprint unlock keystore -->
-    <string name="fp_unlock_keystore_title">Fingerprint unlock</string>
+    <string name="fp_unlock_keystore_title">Fingerprint Unlock</string>
     <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without PIN/Password/Pattern\nNote: at your own risk!</string>
 </resources>
