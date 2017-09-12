@@ -3377,6 +3377,8 @@
             <meta-data android:name="com.android.settings.summary"
                 android:resource="@string/arsenic_settings_summary"/>
         </activity>
+        <!-- Hide Apps from Recents (HAFR) -->
+        <activity android:name="com.arsenic.settings.hideappfromrecents.HAFRAppListActivity" />
 
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
