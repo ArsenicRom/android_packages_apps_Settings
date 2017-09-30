@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <!--Arsenic Rom -->
 
@@ -44,6 +45,6 @@
     <string name="custom_light_on_time_title">Light ON time during led pulse (ms)</string>
     <string name="custom_light_off_time_title">Light OFF time during led pulse (ms)"</string>
     <string name="app_notifications_info_desc">Tap on one of above channels to configure their light colors and other options</string>
-    <string name="value_equals_default">auto</string>
+    <string name="value_equals_default">def</string>
 
 </resources>
