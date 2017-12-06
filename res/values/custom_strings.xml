@@ -19,4 +19,7 @@
     <string name="arsenic_activity_summary">Personalize custom features</string>
     <string name="arsenic_settings_title">Arsenic Configurations</string>
 
+    <!-- Dev settings -->
+    <string name="show_dev_already_enabled">No Need, Development settings are enabled by default.</string>
+
 </resources>
