@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <!--Arsenic Rom -->
 
@@ -34,6 +33,11 @@
     <string name="dashboard_conditions_title">Dashboard conditions</string>
     <string name="summary_dashboard_conditions_enabled">Dashboard conditions are enabled</string>
     <string name="summary_dashboard_conditions_disabled">Dashboard conditions are disabled</string>
+
+    <!-- Dashboard suggestions -->
+    <string name="dashboard_suggestions_title">Dashboard suggestions</string>
+    <string name="summary_dashboard_suggestions_enabled">Dashboard suggestions are enabled</string>
+    <string name="summary_dashboard_suggestions_disabled">Dashboard suggestions are disabled</string>
 
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Quick unlock</string>
