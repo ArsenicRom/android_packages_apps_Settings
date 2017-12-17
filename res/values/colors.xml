@@ -116,6 +116,8 @@
     <!-- Suggestion/condition colors -->
     <color name="suggestion_condition_background">#10000000</color>
     <color name="condition_card_background">#05000000</color>
+    <color name="suggestion_condition_background">#f2f2f2</color>
+    <color name="condition_card_background">#f8f8f8</color>
 
     <color name="suggestion_tile_background">@*android:color/white</color>
 </resources>
