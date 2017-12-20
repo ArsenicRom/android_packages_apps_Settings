@@ -113,4 +113,10 @@
     <!-- Running services -->
     <string name="background_processes_settings_title">Background processes</string>
 
+    <!-- SystemUI Theme -->
+    <string name="system_theme_style_title">UI style</string>
+    <string name="system_theme_style_auto">Wallpaper based</string>
+    <string name="system_theme_style_light">Light UI</string>
+    <string name="system_theme_style_dark">Dark UI</string>
+
 </resources>
