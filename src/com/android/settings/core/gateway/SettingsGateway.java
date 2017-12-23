@@ -133,6 +133,7 @@ import com.android.settings.wifi.WifiSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 
 import com.android.settings.arsenic.ArsenicSettings;
+import com.android.settings.arsenic.ButtonsSettings;
 
 public class SettingsGateway {
 
@@ -256,6 +257,7 @@ public class SettingsGateway {
             BluetoothDeviceDetailsFragment.class.getName(),
             DataUsageList.class.getName(),
 	    ArsenicSettings.class.getName(),
+            ButtonsSettings.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {

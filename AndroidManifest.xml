@@ -3336,5 +3336,18 @@
         <activity android:name="com.android.settings.arsenic.recents.HAFRAppListActivity" />
 
         <!-- This is the longest AndroidManifest.xml ever. -->
+
+        <!-- Buttons settings activity. -->
+        <activity android:name="Settings$ButtonsSettingsActivity"
+                android:label="@string/buttons_title"
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.arsenic.ButtonsSettings" />
+        </activity>
+
     </application>
 </manifest>
