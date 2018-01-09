@@ -38,6 +38,8 @@ import com.android.settings.password.ChooseLockSettingsHelper;
 import com.android.settingslib.RestrictedSwitchPreference;
 import com.android.settingslib.development.DeveloperOptionsPreferenceController;
 
+import android.os.SystemProperties;
+
 public class OemUnlockPreferenceController extends DeveloperOptionsPreferenceController implements
         Preference.OnPreferenceChangeListener, PreferenceControllerMixin, OnActivityResultListener {
 
