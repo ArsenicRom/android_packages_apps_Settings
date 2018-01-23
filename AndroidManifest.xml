@@ -3371,6 +3371,18 @@
                 android:value="com.android.settings.arsenic.ButtonsSettings" />
         </activity>
 
+        <!-- Color settings activity. -->
+        <activity android:name="Settings$ColorSettingsActivity"
+                android:label="@string/color_manager_title"
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.aoscp.display.ColorManagerFragment" />
+        </activity>
+
         <!-- Root management -->
         <activity android:name="Settings$RootManagementActivity"
                 android:label="@string/rootmanagement_title"
