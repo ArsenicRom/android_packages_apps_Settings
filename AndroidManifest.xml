@@ -2129,6 +2129,7 @@
 
         <activity android:name="ActivityPicker"
                 android:label="@string/activity_picker_label"
+                android:theme="@*android:style/Theme.DeviceDefault.Light.Dialog.Alert"
                 android:finishOnCloseSystemDialogs="true">
             <intent-filter android:priority="1">
                 <action android:name="android.intent.action.PICK_ACTIVITY" />
@@ -2845,6 +2846,7 @@
         </activity>
 
         <activity android:name=".sim.SimPreferenceDialog"
+            android:theme="@*android:style/Theme.DeviceDefault.Settings.Dialog.NoActionBar"
             android:excludeFromRecents="true">
         </activity>
 
@@ -2873,6 +2875,7 @@
         </activity>
 
         <activity android:name=".sim.SimDialogActivity"
+                android:theme="@*android:style/Theme.DeviceDefault.Settings.Dialog.NoActionBar"
                 android:label="@string/sim_settings_title"
                 android:excludeFromRecents="true">
             <intent-filter>
