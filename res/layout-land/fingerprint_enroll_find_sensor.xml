@@ -70,7 +70,7 @@
                     android:id="@+id/find_sensor_message"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/security_settings_fingerprint_enroll_find_sensor_message"/>
+                    android:text="@string/security_settings_fingerprint_enroll_find_sensor_message_custom"/>
 
                 <Space
                     android:layout_width="0dp"
