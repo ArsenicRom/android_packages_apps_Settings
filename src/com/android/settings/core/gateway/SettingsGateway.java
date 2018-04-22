@@ -134,8 +134,19 @@ import com.android.settings.wifi.WifiInfo;
 import com.android.settings.wifi.WifiSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 
+<<<<<<< HEAD
 import com.android.settings.arsenic.ArsenicSettings;
 import com.android.settings.arsenic.ButtonsSettings;
+=======
+import com.liquid.liquidlounge.LiquidLoungeSettings;
+import com.liquid.liquidlounge.fragments.ButtonsSettings;
+import com.liquid.liquidlounge.fragments.HeadsUpSettings;
+import com.liquid.liquidlounge.fragments.FlingSettings;
+import com.liquid.liquidlounge.fragments.NavbarSettings;
+import com.liquid.liquidlounge.fragments.PulseSettings;
+import com.liquid.liquidlounge.fragments.SmartbarSettings;
+import com.liquid.liquidlounge.fragments.SmartPixels;
+>>>>>>> 730a4a6... Settings: External Smart Pixels fragment launch
 
 public class SettingsGateway {
 
@@ -259,9 +270,19 @@ public class SettingsGateway {
             LockscreenDashboardFragment.class.getName(),
             BluetoothDeviceDetailsFragment.class.getName(),
             DataUsageList.class.getName(),
+<<<<<<< HEAD
 	    ArsenicSettings.class.getName(),
+=======
+            LiquidLoungeSettings.class.getName(),
+            HeadsUpSettings.class.getName(),
+            NavbarSettings.class.getName(),
+            FlingSettings.class.getName(),
+            SmartbarSettings.class.getName(),
+            PulseSettings.class.getName(),
+>>>>>>> 730a4a6... Settings: External Smart Pixels fragment launch
             ButtonsSettings.class.getName(),
-            RunningServices.class.getName()
+            RunningServices.class.getName(),
+            SmartPixels.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -300,8 +321,19 @@ public class SettingsGateway {
             Settings.DateTimeSettingsActivity.class.getName(),
             Settings.DeviceInfoSettingsActivity.class.getName(),
             Settings.EnterprisePrivacySettingsActivity.class.getName(),
+<<<<<<< HEAD
             // Arsenic Settings
             Settings.ArsenicSettingsActivity.class.getName(),
             Settings.DevRunningServicesActivity.class.getName(),
+=======
+		    // LiquidRemix settings
+	        Settings.LiquidLoungeSettingsActivity.class.getName(),
+            Settings.NavigationSettingsActivity.class.getName(),
+            Settings.FlingSettingsActivity.class.getName(),
+            Settings.SmartbarSettingsActivity.class.getName(),
+            Settings.DevRunningServicesActivity.class.getName(),
+            Settings.SmartPixelsActivity.class.getName(),
+            Settings.PulseSettingsActivity.class.getName()
+>>>>>>> 730a4a6... Settings: External Smart Pixels fragment launch
     };
 }
