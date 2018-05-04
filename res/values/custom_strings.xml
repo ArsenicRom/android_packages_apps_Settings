@@ -13,4 +13,10 @@
 	<string name="arsenic_about_devs">Arsenic</string>
 	<string name="arsenic_about_dev_title">JuanCarlos5</string>
 	<string name="arsenic_about_dev_summary">Founder</string>
+
+    <!-- Arsenic Settings -->
+    <string name="arsenic_title">Arsenic Settings</string>
+    <string name="arsenic_activity_summary">Personalize custom features</string>
+    <string name="arsenic_settings_title">Arsenic Configurations</string>
+
 </resources>

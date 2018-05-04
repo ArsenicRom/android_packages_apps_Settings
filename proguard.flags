@@ -20,6 +20,9 @@
     *** get*();
 }
 
+# Arsenic
+-keep class com.android.settings.arsenic.**
+
 -keep class com.android.settings.lineageos.*Settings
 
 # Keep classes that may be inflated from XML.
