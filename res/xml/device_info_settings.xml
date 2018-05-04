@@ -67,6 +67,11 @@
         <org.lineageos.internal.lineageparts.LineagePartsPreference
                 android:key="contributors" />
 
+        <!-- Arsenic About -->
+        <Preference
+                android:key="arsenic_about"
+                android:title="@string/arsenic_about_title" />
+
         <!-- Device hardware model -->
         <Preference
                 android:key="device_model"
