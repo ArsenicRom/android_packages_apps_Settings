@@ -26,6 +26,7 @@ import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.dashboard.SummaryLoader;
 import com.android.settings.deviceinfo.AdditionalSystemUpdatePreferenceController;
+import com.android.settings.deviceinfo.ArsenicVersionPreferenceController;
 import com.android.settings.deviceinfo.BasebandVersionPreferenceController;
 import com.android.settings.deviceinfo.BuildNumberPreferenceController;
 import com.android.settings.deviceinfo.DeviceModelPreferenceController;
@@ -119,6 +120,7 @@ public class DeviceInfoSettings extends DashboardFragment implements Indexable {
         controllers.add(
                 new BuildNumberPreferenceController(context, activity, fragment, lifecycle));
         controllers.add(new AdditionalSystemUpdatePreferenceController(context));
+	controllers.add(new ArsenicVersionPreferenceController(context));
         controllers.add(new ManualPreferenceController(context));
         controllers.add(new KernelVersionPreferenceController(context));
         controllers.add(new BasebandVersionPreferenceController(context));

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Arsenic Rom -->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Arsenic version -->
+    <string name="arsenic_version">Arsenic Version</string>
+    <string name="arsenic_build">1</string>
+
+</resources>
