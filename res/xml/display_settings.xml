@@ -112,6 +112,11 @@
             android:action="org.lineageos.settings.device.DOZE_SETTINGS" />
     </lineageos.preference.RemotePreference>
 
+    <Preference
+        android:key="force_ambient_for_media_pref"
+        android:title="@string/ambient_ticker_title"
+        android:fragment="com.android.settings.arsenic.AmbientTicker" />
+
     <!-- Hide night mode for now
     <ListPreference
         android:key="night_mode"
