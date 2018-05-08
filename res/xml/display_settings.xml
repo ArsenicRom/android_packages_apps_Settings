@@ -117,6 +117,11 @@
         android:title="@string/ambient_ticker_title"
         android:fragment="com.android.settings.arsenic.AmbientTicker" />
 
+    <Preference
+        android:key="smart_pixels"
+        android:title="@string/smart_pixels_title"
+        android:fragment="com.android.settings.arsenic.SmartPixels" />
+
     <!-- Hide night mode for now
     <ListPreference
         android:key="night_mode"
