@@ -3333,7 +3333,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="com.liquid.liquidlounge.recents.HAFRAppListActivity" />
+        <activity android:name="com.android.settings.arsenic.recents.HAFRAppListActivity" />
 
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>

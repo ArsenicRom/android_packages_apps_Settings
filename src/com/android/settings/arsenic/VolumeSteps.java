@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.liquid;
+package com.android.settings.arsenic;
 
 import java.util.HashMap;
 import java.util.HashSet;
@@ -139,7 +139,7 @@ public class VolumeSteps extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsEvent.LIQUID;
+        return MetricsEvent.ARSENIC;
     }
 
     private SharedPreferences getDefaultStepsPrefs() {
