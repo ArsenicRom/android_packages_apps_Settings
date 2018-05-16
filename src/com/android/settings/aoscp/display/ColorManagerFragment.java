@@ -22,11 +22,9 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Bundle;
-import android.os.Handler;
 import android.os.RemoteException;
 import android.os.UserHandle;
 import android.provider.Settings;
-import android.widget.Toast;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceScreen;
 import android.util.ArrayMap;
@@ -40,7 +38,6 @@ import com.android.settings.widget.RadioButtonPreference;
 
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.lifecycle.Lifecycle;
-import com.android.settingslib.drawer.SettingsDrawerActivity;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -78,7 +75,6 @@ public class ColorManagerFragment extends DashboardFragment
 
     @Override
     protected List<AbstractPreferenceController> getPreferenceControllers(Context context) {
-        mContext = context;
         return buildPreferenceControllers(context, getLifecycle());
     }
 
@@ -158,30 +154,5 @@ public class ColorManagerFragment extends DashboardFragment
                 break;
         }
         updateThemeItems(pref.getKey());
-        try {
-            reload();
-        } catch (Exception ignored){
-        }
-    }
-
-    private void reload() {
-        Intent intent2 = new Intent(Intent.ACTION_MAIN);
-        intent2.addCategory(Intent.CATEGORY_HOME);
-        intent2.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-        mContext.startActivity(intent2);
-        Toast.makeText(mContext, R.string.applying_theme_toast, Toast.LENGTH_SHORT).show();
-        Handler handler = new Handler();
-        handler.postDelayed(new Runnable() {
-              @Override
-              public void run() {
-                  Intent intent = new Intent(Intent.ACTION_MAIN);
-                  intent.setClassName("com.android.settings",
-                        "com.android.settings.Settings$ColorSettingsActivity");
-                  intent.addFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
-                  intent.putExtra(SettingsDrawerActivity.EXTRA_SHOW_MENU, true);
-                  mContext.startActivity(intent);
-                  Toast.makeText(mContext, R.string.theme_applied_toast, Toast.LENGTH_SHORT).show();
-              }
-        }, 2000);
     }
 }

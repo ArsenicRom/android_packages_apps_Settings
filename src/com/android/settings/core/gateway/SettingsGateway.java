@@ -136,7 +136,6 @@ import com.android.settings.wifi.p2p.WifiP2pSettings;
 
 import com.android.settings.arsenic.ArsenicSettings;
 import com.android.settings.arsenic.ButtonsSettings;
-import com.android.settings.aoscp.display.ColorManagerFragment;
 
 public class SettingsGateway {
 
@@ -262,7 +261,6 @@ public class SettingsGateway {
             DataUsageList.class.getName(),
 	    ArsenicSettings.class.getName(),
             ButtonsSettings.class.getName(),
-            ColorManagerFragment.class.getName(),
             RunningServices.class.getName()
     };
 

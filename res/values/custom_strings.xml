@@ -116,16 +116,12 @@
     <string name="dev_advanced_settings_summary">For the experienced user</string>
     <string name="dev_advanced_already_enabled">No need, advanced settings are enabled by default.</string>
 
-    <!-- Fingerprint swipe to dismiss -->
+    <!-- Fingerprint swipe to dismiss-->
     <string name="fp_swipe_to_dismiss_notifications_title">Swipe fingerprint left or right to dismiss notifications</string>
     <string name="fp_swipe_to_dismiss_notifications_pref_title">Swipe fingerprint left or right</string>
     <string name="fp_swipe_to_dismiss_notifications_summary">To dismiss your notifications, swipe left or right on the fingerprint sensor on the back of your phone.</string>
     <string name="fingerprint_swipe_to_dismiss_suggestion_title">Dismiss notifications quickly</string>
     <string name="fingerprint_swipe_to_dismiss_suggestion_summary">Swipe left or right on the fingerprint sensor</string>
-
-    <!-- Theme applied toast -->
-    <string name="theme_applied_toast">Theme applied.</string>
-    <string name="applying_theme_toast">Applying theme, please wait...</string>
 
     <!-- Running services -->
     <string name="background_processes_settings_title">Background processes</string>
