@@ -25,7 +25,7 @@ import android.content.pm.ResolveInfo;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.SystemProperties;
-import android.provider.SearchIndexableResource;
+//import android.provider.SearchIndexableResource;
 import android.support.annotation.VisibleForTesting;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceGroup;
@@ -34,13 +34,13 @@ import android.util.Log;
 
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.R;
-import com.android.settings.search.BaseSearchIndexProvider;
-import com.android.settings.search.Indexable;
+//import com.android.settings.search.BaseSearchIndexProvider;
+//import com.android.settings.search.Indexable;
 
 import java.util.Arrays;
 import java.util.List;
 
-public class LegalSettings extends SettingsPreferenceFragment implements Indexable {
+public class LegalSettings extends SettingsPreferenceFragment /*implements Indexable*/ {
 
     private static final String LOG_TAG = "LegalSettings";
     private static final String KEY_TERMS = "terms";
@@ -99,7 +99,7 @@ public class LegalSettings extends SettingsPreferenceFragment implements Indexab
         }
     }
 
-    public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+/*    public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
         new BaseSearchIndexProvider() {
 
             @Override
@@ -147,6 +147,6 @@ public class LegalSettings extends SettingsPreferenceFragment implements Indexab
 
                 return false;
             }
-    };
+    };*/
 
 }
