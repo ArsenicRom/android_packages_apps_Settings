@@ -17,6 +17,10 @@
     <string name="arsenic_settings_title">Arsenic Settings</string>
     <string name="arsenic_settings_summary">Wreak some Arsenic...</string>
 
+    <!-- Arsenic-OS version -->
+    <string name="arsenic_version">ROM version</string>
+    <string name="arsenic_version_default">Unknown</string>
+
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Quick unlock</string>
     <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
