@@ -35,7 +35,7 @@ public class ArsenicVersionDialogController {
     private static final String TAG = "ArsenicDialogCtrl";
     private static final int DELAY_TIMER_MILLIS = 500;
     private static final int ACTIVITY_TRIGGER_COUNT = 3;
-    private static final String ARSENIC_PROPERTY = "ro.arsenic.version";
+    private static final String ARSENIC_PROPERTY = "ro.arsenic.build.version";
     private static final int ARSENIC_VERSION_VALUE_ID = R.id.arsenic_version_value;
     private static final int ARSENIC_VERSION_LABEL_ID = R.id.arsenic_version_label;
 
