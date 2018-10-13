@@ -16,12 +16,14 @@
 
 package com.android.settings.core.gateway;
 
+import com.android.settings.AmbientPlaySettings;
 import com.android.settings.DateTimeSettings;
 import com.android.settings.DeviceAdminSettings;
 import com.android.settings.DisplaySettings;
 import com.android.settings.IccLockSettings;
 import com.android.settings.MasterClear;
 import com.android.settings.PrivacySettings;
+import com.android.settings.preference.DisplayRotation;
 import com.android.settings.Settings;
 import com.android.settings.TestingSettings;
 import com.android.settings.TetherSettings;
@@ -141,7 +143,14 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.arsenic.settings.ArsenicSettings;
 import com.arsenic.settings.fragments.Buttons;
-import com.havoc.settings.fragments.Interface;
+import com.arsenic.settings.fragments.Display;
+import com.arsenic.settings.fragments.ExpandedDesktopPreferenceFragment;
+import com.arsenic.settings.fragments.Interface;
+import com.arsenic.settings.fragments.Navigation;
+import com.arsenic.settings.fragments.ScreenStateToggles;
+import com.arsenic.settings.fragments.SmartPixels;
+import com.arsenic.settings.fragments.Weather;
+import com.arsenic.settings.fragments.ui.DozeFragment;
 
 public class SettingsGateway {
 
@@ -271,7 +280,16 @@ public class SettingsGateway {
             ArsenicSettings.class.getName(),
             Buttons.class.getName(),
             RunningServices.class.getName(),
-            Interface.class.getName()
+            Interface.class.getName(),
+            DozeFragment.class.getName(),
+            AmbientPlaySettings.class.getName(),
+            Navigation.class.getName(),
+            SmartPixels.class.getName(),
+            Weather.class.getName(),
+            Display.class.getName(),
+            ExpandedDesktopPreferenceFragment.class.getName(),
+            ScreenStateToggles.class.getName(),
+            DisplayRotation.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
