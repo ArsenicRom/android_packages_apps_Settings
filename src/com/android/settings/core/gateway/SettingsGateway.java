@@ -151,6 +151,7 @@ import com.arsenic.settings.fragments.ScreenStateToggles;
 import com.arsenic.settings.fragments.SmartPixels;
 import com.arsenic.settings.fragments.Weather;
 import com.arsenic.settings.fragments.ui.DozeFragment;
+import com.arsenic.settings.fragments.PieSettings;
 
 public class SettingsGateway {
 
@@ -289,7 +290,8 @@ public class SettingsGateway {
             Display.class.getName(),
             ExpandedDesktopPreferenceFragment.class.getName(),
             ScreenStateToggles.class.getName(),
-            DisplayRotation.class.getName()
+            DisplayRotation.class.getName(),
+            PieSettings.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
