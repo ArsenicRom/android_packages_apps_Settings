@@ -96,4 +96,7 @@
     <string name="ambient_recognition_interval_80sec">1 minute 20 seconds</string>
     <string name="ambient_recognition_interval_100sec">1 minute 40 seconds</string>
     <string name="ambient_recognition_interval_120sec">2 minutes</string>
+
+    <!-- System Updates -->
+    <string name="system_update_settings_summary">Check for Havoc-OS updates</string>
 </resources>
