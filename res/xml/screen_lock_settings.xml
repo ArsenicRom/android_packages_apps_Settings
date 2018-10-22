@@ -25,6 +25,14 @@
         android:key="visiblepattern"
         android:title="@string/lockpattern_settings_enable_visible_pattern_title" />
 
+    <SwitchPreference
+        android:key="visible_error_pattern"
+        android:title="@string/lockpattern_settings_enable_error_path_title"/>
+
+    <SwitchPreference
+        android:key="visibledots"
+        android:title="@string/lockpattern_settings_enable_dots_title"/>
+
     <!-- available in pin/pattern/password -->
     <com.android.settings.TimeoutListPreference
         android:key="lock_after_timeout"
@@ -37,6 +45,12 @@
     <SwitchPreference
         android:key="power_button_instantly_locks"
         android:title="@string/lockpattern_settings_enable_power_button_instantly_locks" />
+
+    <!-- available in pin/pattern/password -->
+    <SwitchPreference
+        android:key="directly_show_lock"
+        android:title="@string/directly_show_lock"
+        android:summary="@string/directly_show_lock_summary" />
 
     <!-- available in pin/pattern/password/slide -->
     <com.android.settingslib.RestrictedPreference
