@@ -25,9 +25,6 @@
     <string name="unlock_quick_unlock_control_title">Quick unlock</string>
     <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
 
-    <!-- Pixel color on sim card -->
-    <string name="pixel_sim_color">Pixel</string>
-
     <!-- Advanced night mode brightness -->
     <string name="night_brightness_category">Brightness</string>
     <string name="night_brightness_value_title">Lower brightness if Night Light</string>
