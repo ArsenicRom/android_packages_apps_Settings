@@ -3449,30 +3449,6 @@
                 android:value="com.arsenic.settings.fragments.ui.DozeFragment" />
         </activity>
 
-        <!-- Ambient play activity. -->
-        <activity android:name="Settings$AmbientPlayActivity"
-                android:label="@string/ambient_play_cat"
-                android:excludeFromRecents="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.android.settings.AmbientPlaySettings" />
-        </activity>
-
-        <!-- Navigation activity. -->
-        <activity android:name="Settings$NavigationActivity"
-                android:label="@string/navigation_title"
-                android:excludeFromRecents="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.arsenic.settings.fragments.Navigation" />
-        </activity>
-
         <!-- Smart pixels activity. -->
         <activity android:name="Settings$SmartPixelsActivity"
                 android:label="@string/smart_pixels_title"
@@ -3531,30 +3507,6 @@
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.arsenic.settings.fragments.ScreenStateToggles" />
-        </activity>
-
-        <!-- Rotation activity. -->
-        <activity android:name="Settings$RotationActivity"
-                android:label="@string/display_rotation_title"
-                android:excludeFromRecents="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.android.settings.preference.DisplayRotation" />
-        </activity>
-
-        <!-- Pie settings activity. -->
-        <activity android:name="Settings$PieControlSettingsActivity"
-                android:label="@string/pa_pie_control_title"
-                android:excludeFromRecents="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.arsenic.settings.fragments.PieSettings" />
         </activity>
 
         <!-- This is the longest AndroidManifest.xml ever. -->

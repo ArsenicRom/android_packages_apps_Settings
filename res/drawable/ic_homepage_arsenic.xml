@@ -16,7 +16,7 @@
     <item>
         <shape android:shape="oval">
             <solid
-                android:color="@color/homepage_havoc_background" />
+                android:color="@color/homepage_arsenic_background" />
             <size
                 android:width="@dimen/dashboard_tile_image_size"
                 android:height="@dimen/dashboard_tile_image_size" />
@@ -28,5 +28,5 @@
         android:height="@dimen/dashboard_tile_foreground_image_size"
         android:start="@dimen/dashboard_tile_foreground_image_inset"
         android:top="@dimen/dashboard_tile_foreground_image_inset"
-        android:drawable="@drawable/ic_settings_havoc" />
+        android:drawable="@drawable/ic_settings_arsenic" />
 </layer-list>

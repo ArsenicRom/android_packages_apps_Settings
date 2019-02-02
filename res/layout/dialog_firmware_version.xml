@@ -62,7 +62,7 @@
             android:id="@+id/arsenic_version_label"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/Arsenic_version"/>
+            android:text="@string/arsenic_version"/>
         <TextView
             style="@style/device_info_dialog_value"
             android:id="@+id/arsenic_version_value"
